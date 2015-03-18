@@ -1,0 +1,2 @@
+      invoke  active_record
+      create    db/migrate/20150318073332_add_duration_to_events.rb
