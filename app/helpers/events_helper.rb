@@ -27,9 +27,6 @@ module EventsHelper
         }
       end
     end
-    respond_to do |format|
-     format.html # index.html.erb
-     format.json { render json: @hash }
-   end
+    return @hash
  end
 end
