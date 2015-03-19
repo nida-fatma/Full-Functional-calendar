@@ -80797,3 +80797,1662 @@ Started GET "/assets/jquery-ui/ui-icons_454545_256x240-2a33e8888733daef3101a82d3
 
 
 Started GET "/assets/jquery-ui/ui-bg_glass_65_ffffff_1x400-2aef1a76623b6497407c1b4bb0ff846a.png" for ::1 at 2015-03-19 18:00:58 +0530
+
+
+Started GET "/events" for ::1 at 2015-03-19 18:50:23 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+SyntaxError (/Users/apple/workspace/Full-Functional-calendar/app/controllers/events_controller.rb:28: syntax error, unexpected '{', expecting keyword_then or ';' or '\n'):
+  app/controllers/events_controller.rb:28: syntax error, unexpected '{', expecting keyword_then or ';' or '\n'
+
+
+  Rendered /Users/apple/.rvm/gems/ruby-2.1.1@global/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.7ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.1.1@global/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.1.1@global/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (10.7ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.1.1@global/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (42.4ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.1.1/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.1.1/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.1.1/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.1.1/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.1.1/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (19.5ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.1.1/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.1.1/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.1.1/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (48.1ms)
+
+
+Started GET "/events" for ::1 at 2015-03-19 18:51:05 +0530
+Processing by EventsController#index as HTML
+  Rendered events/index.html.erb within layouts/application (59.0ms)
+Completed 200 OK in 1327ms (Views: 1324.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-ui/tabs-9ffeb92c9db8bddb6a62a90240ed0050.css?body=1" for ::1 at 2015-03-19 18:51:06 +0530
+
+
+Started GET "/assets/jquery-ui/menu-7a7c9529e62d35813ed0a71fa95242f2.js?body=1" for ::1 at 2015-03-19 18:51:06 +0530
+
+
+Started GET "/assets/jquery-ui/effect-2021355f2a0aeca6f77406c225e16af5.js?body=1" for ::1 at 2015-03-19 18:51:06 +0530
+
+
+Started GET "/assets/jquery-ui/mouse-504ef967eca0eb03967e3c9751c36d17.js?body=1" for ::1 at 2015-03-19 18:51:06 +0530
+
+
+Started GET "/assets/jquery-ui/effect-blind-49d6ffb6eb5c076034162b6d1e1745c3.js?body=1" for ::1 at 2015-03-19 18:51:06 +0530
+
+
+Started GET "/assets/jquery-ui/effect-bounce-e72f4f6a65b157d929fbd89f8b2390dd.js?body=1" for ::1 at 2015-03-19 18:51:06 +0530
+
+
+Started GET "/assets/jquery-ui/effect-clip-cd4d51c0674f351a44707a41658b7181.js?body=1" for ::1 at 2015-03-19 18:51:06 +0530
+
+
+Started GET "/assets/jquery-ui/effect-drop-def98505446ba9f512233830d6500f3a.js?body=1" for ::1 at 2015-03-19 18:51:06 +0530
+
+
+Started GET "/assets/jquery-ui/effect-explode-0a42b7e95cf8a3d90da3cb3dce943a8d.js?body=1" for ::1 at 2015-03-19 18:51:06 +0530
+
+
+Started GET "/assets/jquery-ui/effect-fade-4d808b81f828c7dc6c8b1618d80ed32b.js?body=1" for ::1 at 2015-03-19 18:51:06 +0530
+
+
+Started GET "/assets/jquery-ui/effect-fold-de72205ff2880aa41078b5abe1865cba.js?body=1" for ::1 at 2015-03-19 18:51:06 +0530
+
+
+Started GET "/assets/jquery-ui/effect-highlight-32a231f33cb93ea3ed13cb952bd04c90.js?body=1" for ::1 at 2015-03-19 18:51:06 +0530
+
+
+Started GET "/assets/jquery-ui/effect-size-c7ef7adb8e56fe4a76a11dbefcffdad9.js?body=1" for ::1 at 2015-03-19 18:51:06 +0530
+
+
+Started GET "/assets/jquery-ui/effect-scale-ce6a6c37c94c883819a78d6815bf71b7.js?body=1" for ::1 at 2015-03-19 18:51:06 +0530
+
+
+Started GET "/assets/jquery-ui/effect-puff-35dacd87c19580d27466f980033f6892.js?body=1" for ::1 at 2015-03-19 18:51:06 +0530
+
+
+Started GET "/assets/jquery-ui/effect-pulsate-3dbd9c7d4f02ace765adbf794ac8044c.js?body=1" for ::1 at 2015-03-19 18:51:06 +0530
+
+
+Started GET "/assets/jquery-ui/effect-shake-efb89015cc38a02f2cbaaa355ebd0aa1.js?body=1" for ::1 at 2015-03-19 18:51:06 +0530
+
+
+Started GET "/assets/jquery-ui/effect-slide-5627960ce4f5e1b55f41ee66fe69a1ba.js?body=1" for ::1 at 2015-03-19 18:51:06 +0530
+
+
+Started GET "/assets/jquery-ui/effect-transfer-6db8c857d6ae811d1e346fcaf1165390.js?body=1" for ::1 at 2015-03-19 18:51:06 +0530
+
+
+Started GET "/assets/jquery-ui/progressbar-5bf852897daa19be16725667f5a6d57f.js?body=1" for ::1 at 2015-03-19 18:51:06 +0530
+
+
+Started GET "/assets/jquery-ui/selectable-d48286707119e8a116e86cadea677a1b.js?body=1" for ::1 at 2015-03-19 18:51:06 +0530
+
+
+Started GET "/assets/jquery-ui/selectmenu-a8caf21ea3cb8d2fa75cef3aaa007081.js?body=1" for ::1 at 2015-03-19 18:51:06 +0530
+
+
+Started GET "/assets/jquery-ui/slider-6fc52f20a37b8f070be1c7e94660e582.js?body=1" for ::1 at 2015-03-19 18:51:06 +0530
+
+
+Started GET "/assets/jquery-ui/sortable-fe96bfa9ff14377c0dc83b42d0f191e4.js?body=1" for ::1 at 2015-03-19 18:51:06 +0530
+
+
+Started GET "/assets/jquery-ui/spinner-ea9e3d6dad328d69198074f73b929b40.js?body=1" for ::1 at 2015-03-19 18:51:06 +0530
+
+
+Started GET "/assets/jquery-ui/tabs-7d723642f0cea4ad8b4be12b7af40214.js?body=1" for ::1 at 2015-03-19 18:51:06 +0530
+
+
+Started GET "/assets/jquery-ui/tooltip-974e8ae1e520e685f34c034cd4170ae9.js?body=1" for ::1 at 2015-03-19 18:51:06 +0530
+
+
+Started GET "/assets/jquery-ui-25658f2409fde34c2d638c3816cdce17.js?body=1" for ::1 at 2015-03-19 18:51:06 +0530
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-19 18:51:06 +0530
+
+
+Started GET "/assets/events-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-19 18:51:06 +0530
+
+
+Started GET "/assets/moment-66988874bf5714cb1e4a6f53d733b6e1.js?body=1" for ::1 at 2015-03-19 18:51:06 +0530
+
+
+Started GET "/assets/fullcalendar-c6d8932cb3cd5ce4daf967fec5ffb732.js?body=1" for ::1 at 2015-03-19 18:51:06 +0530
+
+
+Started GET "/events.json?start=2015-03-01&end=2015-04-12&_=1426771266565" for ::1 at 2015-03-19 18:51:07 +0530
+Processing by EventsController#index as JSON
+  Parameters: {"start"=>"2015-03-01", "end"=>"2015-04-12", "_"=>"1426771266565"}
+  [1m[35mEvent Load (0.4ms)[0m  SELECT "events".* FROM "events"
+  Rendered events/index.json.jbuilder (16.6ms)
+Completed 200 OK in 20ms (Views: 18.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/events" for ::1 at 2015-03-19 18:51:29 +0530
+Processing by EventsController#index as HTML
+  Rendered events/index.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 528ms (Views: 525.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-ui-25658f2409fde34c2d638c3816cdce17.js?body=1" for ::1 at 2015-03-19 18:51:30 +0530
+
+
+Started GET "/events.json?start=2015-03-01&end=2015-04-12&_=1426771290428" for ::1 at 2015-03-19 18:51:30 +0530
+Processing by EventsController#index as JSON
+  Parameters: {"start"=>"2015-03-01", "end"=>"2015-04-12", "_"=>"1426771290428"}
+  [1m[36mEvent Load (0.4ms)[0m  [1mSELECT "events".* FROM "events"[0m
+  Rendered events/index.json.jbuilder (9.7ms)
+Completed 200 OK in 12ms (Views: 10.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/jquery-ui/ui-bg_flat_75_ffffff_40x100-c0709c24dfc2efb19007471eb78d579c.png" for ::1 at 2015-03-19 18:51:32 +0530
+
+
+Started POST "/events" for ::1 at 2015-03-19 18:51:56 +0530
+Processing by EventsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zUVXetgw0Pd15dlmTyssXdP2KGxI+7PNc+sKPr1iavIPhqHmTPkyf1AaBXg2SWkCy7xsKt/irY1gvf1TCMuqng==", "event"=>{"title"=>"testing weekly", "description"=>"weekly events", "start_time(1i)"=>"2015", "start_time(2i)"=>"3", "start_time(3i)"=>"16", "start_time(4i)"=>"15", "start_time(5i)"=>"10", "repeat"=>"Weekly", "repeat_freq"=>"2", "repeat_week_days"=>"0"}, "commit"=>"Save Event"}
+Unpermitted parameter: repeat_week_days
+Completed 500 Internal Server Error in 8ms
+
+NameError (undefined local variable or method `set_repeat_day' for #<EventsController:0x00000106b43910>):
+  app/controllers/events_controller.rb:29:in `create'
+
+
+  Rendered /Users/apple/.rvm/gems/ruby-2.1.1@global/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.8ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.1.1@global/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.1.1@global/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.1.1@global/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (33.0ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.1.1/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.1.1/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.9ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.1.1/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.1.1/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.1.1/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (19.5ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.1.1/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.1.1/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.1.1/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (37.1ms)
+
+
+Started POST "/events" for ::1 at 2015-03-19 18:56:32 +0530
+Processing by EventsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zUVXetgw0Pd15dlmTyssXdP2KGxI+7PNc+sKPr1iavIPhqHmTPkyf1AaBXg2SWkCy7xsKt/irY1gvf1TCMuqng==", "event"=>{"title"=>"testing weekly", "description"=>"weekly events", "start_time(1i)"=>"2015", "start_time(2i)"=>"3", "start_time(3i)"=>"16", "start_time(4i)"=>"15", "start_time(5i)"=>"10", "repeat"=>"Weekly", "repeat_freq"=>"2", "repeat_week_days"=>"0"}, "commit"=>"Save Event"}
+Unpermitted parameter: repeat_week_days
+Completed 500 Internal Server Error in 66023ms
+
+NoMethodError (undefined method `repeat_week_days' for #<Event:0x00000106f4dd80>):
+  app/models/event.rb:5:in `set_repeat_day'
+  app/controllers/events_controller.rb:29:in `create'
+
+
+  Rendered /Users/apple/.rvm/gems/ruby-2.1.1@global/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.2ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.1.1@global/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.7ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.1.1@global/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.1.1@global/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (32.1ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.1.1/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.1.1/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.1.1/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.1.1/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.1.1/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (18.6ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.1.1/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.1.1/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.1.1/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (38.2ms)
+
+
+Started POST "/events" for ::1 at 2015-03-19 18:57:44 +0530
+Processing by EventsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zUVXetgw0Pd15dlmTyssXdP2KGxI+7PNc+sKPr1iavIPhqHmTPkyf1AaBXg2SWkCy7xsKt/irY1gvf1TCMuqng==", "event"=>{"title"=>"testing weekly", "description"=>"weekly events", "start_time(1i)"=>"2015", "start_time(2i)"=>"3", "start_time(3i)"=>"16", "start_time(4i)"=>"15", "start_time(5i)"=>"10", "repeat"=>"Weekly", "repeat_freq"=>"2", "repeat_week_days"=>"0"}, "commit"=>"Save Event"}
+Unpermitted parameter: repeat_week_days
+Completed 500 Internal Server Error in 97406ms
+
+NoMethodError (undefined method `repeat_week_days' for #<Event:0x0000010124d9f0>):
+  app/models/event.rb:5:in `set_repeat_day'
+  app/controllers/events_controller.rb:30:in `create'
+
+
+  Rendered /Users/apple/.rvm/gems/ruby-2.1.1@global/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.9ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.1.1@global/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.1.1@global/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.1.1@global/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (29.3ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.1.1/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.1.1/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.1.1/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.1.1/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.1.1/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (16.7ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.1.1/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.1.1/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.1.1/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (35.9ms)
+
+
+Started POST "/events" for ::1 at 2015-03-19 18:59:27 +0530
+Processing by EventsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zUVXetgw0Pd15dlmTyssXdP2KGxI+7PNc+sKPr1iavIPhqHmTPkyf1AaBXg2SWkCy7xsKt/irY1gvf1TCMuqng==", "event"=>{"title"=>"testing weekly", "description"=>"weekly events", "start_time(1i)"=>"2015", "start_time(2i)"=>"3", "start_time(3i)"=>"16", "start_time(4i)"=>"15", "start_time(5i)"=>"10", "repeat"=>"Weekly", "repeat_freq"=>"2", "repeat_week_days"=>"0"}, "commit"=>"Save Event"}
+Completed 500 Internal Server Error in 20ms
+
+ActiveRecord::UnknownAttributeError (unknown attribute 'repeat_week_days' for Event.):
+  app/controllers/events_controller.rb:27:in `create'
+
+
+  Rendered /Users/apple/.rvm/gems/ruby-2.1.1@global/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.3ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.1.1@global/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.1.1@global/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.1.1@global/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (29.1ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.1.1/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.1.1/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.1.1/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.1.1/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.1.1/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (18.8ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.1.1/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.1.1/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.1.1/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (36.7ms)
+
+
+Started POST "/events" for ::1 at 2015-03-19 19:01:59 +0530
+Processing by EventsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zUVXetgw0Pd15dlmTyssXdP2KGxI+7PNc+sKPr1iavIPhqHmTPkyf1AaBXg2SWkCy7xsKt/irY1gvf1TCMuqng==", "event"=>{"title"=>"testing weekly", "description"=>"weekly events", "start_time(1i)"=>"2015", "start_time(2i)"=>"3", "start_time(3i)"=>"16", "start_time(4i)"=>"15", "start_time(5i)"=>"10", "repeat"=>"Weekly", "repeat_freq"=>"2", "repeat_week_days"=>"0"}, "commit"=>"Save Event"}
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (33.1ms)[0m  [1mINSERT INTO "events" ("title", "description", "repeat", "repeat_freq", "start_time", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["title", "testing weekly"], ["description", "weekly events"], ["repeat", "Weekly00"], ["repeat_freq", 2], ["start_time", "2015-03-16 15:10:00.000000"], ["created_at", "2015-03-19 13:34:13.395608"], ["updated_at", "2015-03-19 13:34:13.395608"]]
+  [1m[35m (10.8ms)[0m  commit transaction
+Redirected to http://localhost:3000/events
+Completed 302 Found in 134302ms (ActiveRecord: 44.9ms)
+
+
+Started GET "/events" for ::1 at 2015-03-19 19:04:13 +0530
+Processing by EventsController#index as HTML
+  Rendered events/index.html.erb within layouts/application (10.6ms)
+Completed 200 OK in 636ms (Views: 634.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/events-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-19 19:04:14 +0530
+
+
+Started GET "/assets/scaffolds-2b19d961107b7454adcaeb9dbcdf5dc9.css?body=1" for ::1 at 2015-03-19 19:04:14 +0530
+
+
+Started GET "/assets/application-5d0c4233955cc9c8b36a33c71729c2d9.css?body=1" for ::1 at 2015-03-19 19:04:14 +0530
+
+
+Started GET "/assets/jquery-ui/accordion-88fe7ce4b4d486a12d88f8258c22d800.css?body=1" for ::1 at 2015-03-19 19:04:14 +0530
+
+
+Started GET "/assets/jquery-ui/core-f4781687a98e2cb886a283516f4e1448.css?body=1" for ::1 at 2015-03-19 19:04:14 +0530
+
+
+Started GET "/assets/jquery-ui/theme-05be7edade4323e802d998dee06e179b.css?body=1" for ::1 at 2015-03-19 19:04:14 +0530
+
+
+Started GET "/assets/jquery-ui/menu-cbcf60a86eda7f0e024da84d3453ad99.css?body=1" for ::1 at 2015-03-19 19:04:14 +0530
+
+
+Started GET "/assets/jquery-ui/autocomplete-e5d07826508dec2ae381decacfc2a1d9.css?body=1" for ::1 at 2015-03-19 19:04:14 +0530
+
+
+Started GET "/assets/jquery-ui/button-0ecc76c211636fd87b9774697a4657e7.css?body=1" for ::1 at 2015-03-19 19:04:14 +0530
+
+
+Started GET "/assets/jquery-ui/datepicker-6f959f823350ae63e0b97bf4413fdc25.css?body=1" for ::1 at 2015-03-19 19:04:14 +0530
+
+
+Started GET "/assets/jquery-ui/draggable-2398161ba77a9058d9fb592eb40f3f93.css?body=1" for ::1 at 2015-03-19 19:04:14 +0530
+
+
+Started GET "/assets/jquery-ui/resizable-fac0866a3ca409e84f793aed37f2d2fd.css?body=1" for ::1 at 2015-03-19 19:04:14 +0530
+
+
+Started GET "/assets/jquery-ui/dialog-94691976132faef225e94209691b7f6b.css?body=1" for ::1 at 2015-03-19 19:04:14 +0530
+
+
+Started GET "/assets/jquery-ui/progressbar-61cf0a7e7d964f32985a4ab47af27b63.css?body=1" for ::1 at 2015-03-19 19:04:14 +0530
+
+
+Started GET "/assets/jquery-ui/selectable-12ee86662aa0fe55647a30bedd9e0312.css?body=1" for ::1 at 2015-03-19 19:04:14 +0530
+
+
+Started GET "/assets/jquery-ui/selectmenu-95daa218f75db7a6cc5ceb480fa5c19f.css?body=1" for ::1 at 2015-03-19 19:04:14 +0530
+
+
+Started GET "/assets/jquery-ui/sortable-9e7d2fc444e389283716874a1a1ec6ad.css?body=1" for ::1 at 2015-03-19 19:04:14 +0530
+
+
+Started GET "/assets/jquery-ui/slider-f28ac6eda66cd476b176a7df6e95416a.css?body=1" for ::1 at 2015-03-19 19:04:14 +0530
+
+
+Started GET "/assets/jquery-ui/spinner-48e1248035e483c6193aa52f76bf99dd.css?body=1" for ::1 at 2015-03-19 19:04:14 +0530
+
+
+Started GET "/assets/jquery-ui/tabs-9ffeb92c9db8bddb6a62a90240ed0050.css?body=1" for ::1 at 2015-03-19 19:04:14 +0530
+
+
+Started GET "/assets/jquery-ui/tooltip-39b71f906b596e9b132ea8fee7faf962.css?body=1" for ::1 at 2015-03-19 19:04:14 +0530
+
+
+Started GET "/assets/jquery-ui/base-35bc4884bd881640c9e64a5257ebd04e.css?body=1" for ::1 at 2015-03-19 19:04:14 +0530
+
+
+Started GET "/assets/jquery-ui/all-d6fb606b889c25c528dffb9c866175b8.css?body=1" for ::1 at 2015-03-19 19:04:14 +0530
+
+
+Started GET "/assets/jquery-ui-d6fb606b889c25c528dffb9c866175b8.css?body=1" for ::1 at 2015-03-19 19:04:14 +0530
+
+
+Started GET "/assets/fullcalendar-32ecbd03711357d4342240d33e768eba.css?body=1" for ::1 at 2015-03-19 19:04:14 +0530
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-19 19:04:14 +0530
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-19 19:04:14 +0530
+
+
+Started GET "/assets/jquery-ui/core-f6c29219d44f4267c6c5f748cb73851a.js?body=1" for ::1 at 2015-03-19 19:04:14 +0530
+
+
+Started GET "/assets/jquery-ui/widget-406fc24d615dd4370e049e85fb5f549d.js?body=1" for ::1 at 2015-03-19 19:04:14 +0530
+
+
+Started GET "/assets/jquery-ui/accordion-ad7eda240331939ff10d25352a0315bc.js?body=1" for ::1 at 2015-03-19 19:04:14 +0530
+
+
+Started GET "/assets/jquery-ui/position-65ef6bd55aa64766623cc74b5d7d353d.js?body=1" for ::1 at 2015-03-19 19:04:14 +0530
+
+
+Started GET "/assets/jquery-ui/menu-7a7c9529e62d35813ed0a71fa95242f2.js?body=1" for ::1 at 2015-03-19 19:04:14 +0530
+
+
+Started GET "/assets/jquery-ui/button-a8037a4250da171316b7e7521b0d9d0b.js?body=1" for ::1 at 2015-03-19 19:04:14 +0530
+
+
+Started GET "/assets/jquery-ui/autocomplete-5e5a4d7f1f80d346d596661253ace339.js?body=1" for ::1 at 2015-03-19 19:04:14 +0530
+
+
+Started GET "/assets/jquery-ui/datepicker-28441b2cd45f0545c8a439f40b98d784.js?body=1" for ::1 at 2015-03-19 19:04:14 +0530
+
+
+Started GET "/assets/jquery-ui/mouse-504ef967eca0eb03967e3c9751c36d17.js?body=1" for ::1 at 2015-03-19 19:04:14 +0530
+
+
+Started GET "/assets/jquery-ui/draggable-d158b51e489137b213fd1eaa96a9b92a.js?body=1" for ::1 at 2015-03-19 19:04:14 +0530
+
+
+Started GET "/assets/jquery-ui/resizable-aa565fd6aa9f42700d8c54b318c0c1c8.js?body=1" for ::1 at 2015-03-19 19:04:14 +0530
+
+
+Started GET "/assets/jquery-ui/dialog-ee62065c80cb02fe6e91bf5811c59c91.js?body=1" for ::1 at 2015-03-19 19:04:14 +0530
+
+
+Started GET "/assets/jquery-ui/droppable-75fb6ed9dbb83bf1f0f29c2d15778318.js?body=1" for ::1 at 2015-03-19 19:04:14 +0530
+
+
+Started GET "/assets/jquery-ui/effect-2021355f2a0aeca6f77406c225e16af5.js?body=1" for ::1 at 2015-03-19 19:04:14 +0530
+
+
+Started GET "/assets/jquery-ui/effect-blind-49d6ffb6eb5c076034162b6d1e1745c3.js?body=1" for ::1 at 2015-03-19 19:04:14 +0530
+
+
+Started GET "/assets/jquery-ui/effect-bounce-e72f4f6a65b157d929fbd89f8b2390dd.js?body=1" for ::1 at 2015-03-19 19:04:14 +0530
+
+
+Started GET "/assets/jquery-ui/effect-clip-cd4d51c0674f351a44707a41658b7181.js?body=1" for ::1 at 2015-03-19 19:04:14 +0530
+
+
+Started GET "/assets/jquery-ui/effect-drop-def98505446ba9f512233830d6500f3a.js?body=1" for ::1 at 2015-03-19 19:04:14 +0530
+
+
+Started GET "/assets/jquery-ui/effect-explode-0a42b7e95cf8a3d90da3cb3dce943a8d.js?body=1" for ::1 at 2015-03-19 19:04:14 +0530
+
+
+Started GET "/assets/jquery-ui/effect-fade-4d808b81f828c7dc6c8b1618d80ed32b.js?body=1" for ::1 at 2015-03-19 19:04:14 +0530
+
+
+Started GET "/assets/jquery-ui/effect-fold-de72205ff2880aa41078b5abe1865cba.js?body=1" for ::1 at 2015-03-19 19:04:14 +0530
+
+
+Started GET "/assets/jquery-ui/effect-highlight-32a231f33cb93ea3ed13cb952bd04c90.js?body=1" for ::1 at 2015-03-19 19:04:14 +0530
+
+
+Started GET "/assets/jquery-ui/effect-size-c7ef7adb8e56fe4a76a11dbefcffdad9.js?body=1" for ::1 at 2015-03-19 19:04:14 +0530
+
+
+Started GET "/assets/jquery-ui/effect-scale-ce6a6c37c94c883819a78d6815bf71b7.js?body=1" for ::1 at 2015-03-19 19:04:14 +0530
+
+
+Started GET "/assets/jquery-ui/effect-puff-35dacd87c19580d27466f980033f6892.js?body=1" for ::1 at 2015-03-19 19:04:14 +0530
+
+
+Started GET "/assets/jquery-ui/effect-pulsate-3dbd9c7d4f02ace765adbf794ac8044c.js?body=1" for ::1 at 2015-03-19 19:04:14 +0530
+
+
+Started GET "/assets/jquery-ui/effect-shake-efb89015cc38a02f2cbaaa355ebd0aa1.js?body=1" for ::1 at 2015-03-19 19:04:14 +0530
+
+
+Started GET "/assets/jquery-ui/effect-slide-5627960ce4f5e1b55f41ee66fe69a1ba.js?body=1" for ::1 at 2015-03-19 19:04:14 +0530
+
+
+Started GET "/assets/jquery-ui/effect-transfer-6db8c857d6ae811d1e346fcaf1165390.js?body=1" for ::1 at 2015-03-19 19:04:14 +0530
+
+
+Started GET "/assets/jquery-ui/progressbar-5bf852897daa19be16725667f5a6d57f.js?body=1" for ::1 at 2015-03-19 19:04:14 +0530
+
+
+Started GET "/assets/jquery-ui/selectable-d48286707119e8a116e86cadea677a1b.js?body=1" for ::1 at 2015-03-19 19:04:14 +0530
+
+
+Started GET "/assets/jquery-ui/selectmenu-a8caf21ea3cb8d2fa75cef3aaa007081.js?body=1" for ::1 at 2015-03-19 19:04:14 +0530
+
+
+Started GET "/assets/jquery-ui/slider-6fc52f20a37b8f070be1c7e94660e582.js?body=1" for ::1 at 2015-03-19 19:04:14 +0530
+
+
+Started GET "/assets/jquery-ui/sortable-fe96bfa9ff14377c0dc83b42d0f191e4.js?body=1" for ::1 at 2015-03-19 19:04:14 +0530
+
+
+Started GET "/assets/jquery-ui/spinner-ea9e3d6dad328d69198074f73b929b40.js?body=1" for ::1 at 2015-03-19 19:04:14 +0530
+
+
+Started GET "/assets/jquery-ui/tabs-7d723642f0cea4ad8b4be12b7af40214.js?body=1" for ::1 at 2015-03-19 19:04:14 +0530
+
+
+Started GET "/assets/jquery-ui/tooltip-974e8ae1e520e685f34c034cd4170ae9.js?body=1" for ::1 at 2015-03-19 19:04:14 +0530
+
+
+Started GET "/assets/jquery-ui-25658f2409fde34c2d638c3816cdce17.js?body=1" for ::1 at 2015-03-19 19:04:14 +0530
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-19 19:04:15 +0530
+
+
+Started GET "/assets/events-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-19 19:04:15 +0530
+
+
+Started GET "/assets/moment-66988874bf5714cb1e4a6f53d733b6e1.js?body=1" for ::1 at 2015-03-19 19:04:15 +0530
+
+
+Started GET "/assets/fullcalendar-c6d8932cb3cd5ce4daf967fec5ffb732.js?body=1" for ::1 at 2015-03-19 19:04:15 +0530
+
+
+Started GET "/assets/application-0827b55d9ce201a0699fadc02250d2e3.js?body=1" for ::1 at 2015-03-19 19:04:15 +0530
+
+
+Started GET "/events.json?start=2015-03-01&end=2015-04-12&_=1426772054725" for ::1 at 2015-03-19 19:04:15 +0530
+Processing by EventsController#index as JSON
+  Parameters: {"start"=>"2015-03-01", "end"=>"2015-04-12", "_"=>"1426772054725"}
+  [1m[36mEvent Load (0.2ms)[0m  [1mSELECT "events".* FROM "events"[0m
+  Rendered events/index.json.jbuilder (3.2ms)
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/events.json" for ::1 at 2015-03-19 19:04:41 +0530
+Processing by EventsController#index as JSON
+  [1m[35mEvent Load (0.2ms)[0m  SELECT "events".* FROM "events"
+  Rendered events/index.json.jbuilder (3.9ms)
+Completed 200 OK in 16ms (Views: 6.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/events" for ::1 at 2015-03-19 19:05:27 +0530
+Processing by EventsController#index as HTML
+  Rendered events/index.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 542ms (Views: 541.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-ui/sortable-9e7d2fc444e389283716874a1a1ec6ad.css?body=1" for ::1 at 2015-03-19 19:05:28 +0530
+
+
+Started GET "/assets/jquery-ui/slider-f28ac6eda66cd476b176a7df6e95416a.css?body=1" for ::1 at 2015-03-19 19:05:28 +0530
+
+
+Started GET "/assets/jquery-ui/all-d6fb606b889c25c528dffb9c866175b8.css?body=1" for ::1 at 2015-03-19 19:05:28 +0530
+
+
+Started GET "/assets/jquery-ui/tooltip-39b71f906b596e9b132ea8fee7faf962.css?body=1" for ::1 at 2015-03-19 19:05:28 +0530
+
+
+Started GET "/assets/jquery-ui/spinner-48e1248035e483c6193aa52f76bf99dd.css?body=1" for ::1 at 2015-03-19 19:05:28 +0530
+
+
+Started GET "/assets/jquery-ui/tabs-9ffeb92c9db8bddb6a62a90240ed0050.css?body=1" for ::1 at 2015-03-19 19:05:28 +0530
+
+
+Started GET "/assets/jquery-ui-d6fb606b889c25c528dffb9c866175b8.css?body=1" for ::1 at 2015-03-19 19:05:28 +0530
+
+
+Started GET "/assets/jquery-ui/base-35bc4884bd881640c9e64a5257ebd04e.css?body=1" for ::1 at 2015-03-19 19:05:28 +0530
+
+
+Started GET "/assets/fullcalendar-32ecbd03711357d4342240d33e768eba.css?body=1" for ::1 at 2015-03-19 19:05:28 +0530
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-19 19:05:28 +0530
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-19 19:05:28 +0530
+
+
+Started GET "/assets/jquery-ui/core-f6c29219d44f4267c6c5f748cb73851a.js?body=1" for ::1 at 2015-03-19 19:05:28 +0530
+
+
+Started GET "/assets/jquery-ui/widget-406fc24d615dd4370e049e85fb5f549d.js?body=1" for ::1 at 2015-03-19 19:05:28 +0530
+
+
+Started GET "/assets/jquery-ui/accordion-ad7eda240331939ff10d25352a0315bc.js?body=1" for ::1 at 2015-03-19 19:05:28 +0530
+
+
+Started GET "/assets/jquery-ui/position-65ef6bd55aa64766623cc74b5d7d353d.js?body=1" for ::1 at 2015-03-19 19:05:28 +0530
+
+
+Started GET "/assets/jquery-ui/menu-7a7c9529e62d35813ed0a71fa95242f2.js?body=1" for ::1 at 2015-03-19 19:05:28 +0530
+
+
+Started GET "/assets/jquery-ui/autocomplete-5e5a4d7f1f80d346d596661253ace339.js?body=1" for ::1 at 2015-03-19 19:05:28 +0530
+
+
+Started GET "/assets/jquery-ui/datepicker-28441b2cd45f0545c8a439f40b98d784.js?body=1" for ::1 at 2015-03-19 19:05:28 +0530
+
+
+Started GET "/assets/jquery-ui/button-a8037a4250da171316b7e7521b0d9d0b.js?body=1" for ::1 at 2015-03-19 19:05:28 +0530
+
+
+Started GET "/assets/jquery-ui/mouse-504ef967eca0eb03967e3c9751c36d17.js?body=1" for ::1 at 2015-03-19 19:05:28 +0530
+
+
+Started GET "/assets/jquery-ui/draggable-d158b51e489137b213fd1eaa96a9b92a.js?body=1" for ::1 at 2015-03-19 19:05:28 +0530
+
+
+Started GET "/assets/jquery-ui/resizable-aa565fd6aa9f42700d8c54b318c0c1c8.js?body=1" for ::1 at 2015-03-19 19:05:28 +0530
+
+
+Started GET "/assets/jquery-ui/dialog-ee62065c80cb02fe6e91bf5811c59c91.js?body=1" for ::1 at 2015-03-19 19:05:28 +0530
+
+
+Started GET "/assets/jquery-ui/droppable-75fb6ed9dbb83bf1f0f29c2d15778318.js?body=1" for ::1 at 2015-03-19 19:05:28 +0530
+
+
+Started GET "/assets/jquery-ui/effect-2021355f2a0aeca6f77406c225e16af5.js?body=1" for ::1 at 2015-03-19 19:05:28 +0530
+
+
+Started GET "/assets/jquery-ui/effect-blind-49d6ffb6eb5c076034162b6d1e1745c3.js?body=1" for ::1 at 2015-03-19 19:05:28 +0530
+
+
+Started GET "/assets/jquery-ui/effect-bounce-e72f4f6a65b157d929fbd89f8b2390dd.js?body=1" for ::1 at 2015-03-19 19:05:28 +0530
+
+
+Started GET "/assets/jquery-ui/effect-clip-cd4d51c0674f351a44707a41658b7181.js?body=1" for ::1 at 2015-03-19 19:05:28 +0530
+
+
+Started GET "/assets/jquery-ui/effect-drop-def98505446ba9f512233830d6500f3a.js?body=1" for ::1 at 2015-03-19 19:05:28 +0530
+
+
+Started GET "/assets/jquery-ui/effect-explode-0a42b7e95cf8a3d90da3cb3dce943a8d.js?body=1" for ::1 at 2015-03-19 19:05:28 +0530
+
+
+Started GET "/assets/jquery-ui/effect-fade-4d808b81f828c7dc6c8b1618d80ed32b.js?body=1" for ::1 at 2015-03-19 19:05:28 +0530
+
+
+Started GET "/assets/jquery-ui/effect-fold-de72205ff2880aa41078b5abe1865cba.js?body=1" for ::1 at 2015-03-19 19:05:28 +0530
+
+
+Started GET "/assets/jquery-ui/effect-highlight-32a231f33cb93ea3ed13cb952bd04c90.js?body=1" for ::1 at 2015-03-19 19:05:28 +0530
+
+
+Started GET "/assets/jquery-ui/effect-size-c7ef7adb8e56fe4a76a11dbefcffdad9.js?body=1" for ::1 at 2015-03-19 19:05:28 +0530
+
+
+Started GET "/assets/jquery-ui/effect-scale-ce6a6c37c94c883819a78d6815bf71b7.js?body=1" for ::1 at 2015-03-19 19:05:28 +0530
+
+
+Started GET "/assets/jquery-ui/effect-puff-35dacd87c19580d27466f980033f6892.js?body=1" for ::1 at 2015-03-19 19:05:28 +0530
+
+
+Started GET "/assets/jquery-ui/effect-pulsate-3dbd9c7d4f02ace765adbf794ac8044c.js?body=1" for ::1 at 2015-03-19 19:05:28 +0530
+
+
+Started GET "/assets/jquery-ui/effect-shake-efb89015cc38a02f2cbaaa355ebd0aa1.js?body=1" for ::1 at 2015-03-19 19:05:28 +0530
+
+
+Started GET "/assets/jquery-ui/effect-slide-5627960ce4f5e1b55f41ee66fe69a1ba.js?body=1" for ::1 at 2015-03-19 19:05:28 +0530
+
+
+Started GET "/assets/jquery-ui/effect-transfer-6db8c857d6ae811d1e346fcaf1165390.js?body=1" for ::1 at 2015-03-19 19:05:28 +0530
+
+
+Started GET "/assets/jquery-ui/progressbar-5bf852897daa19be16725667f5a6d57f.js?body=1" for ::1 at 2015-03-19 19:05:28 +0530
+
+
+Started GET "/assets/jquery-ui/selectable-d48286707119e8a116e86cadea677a1b.js?body=1" for ::1 at 2015-03-19 19:05:28 +0530
+
+
+Started GET "/assets/jquery-ui/selectmenu-a8caf21ea3cb8d2fa75cef3aaa007081.js?body=1" for ::1 at 2015-03-19 19:05:28 +0530
+
+
+Started GET "/assets/jquery-ui/slider-6fc52f20a37b8f070be1c7e94660e582.js?body=1" for ::1 at 2015-03-19 19:05:28 +0530
+
+
+Started GET "/assets/jquery-ui/sortable-fe96bfa9ff14377c0dc83b42d0f191e4.js?body=1" for ::1 at 2015-03-19 19:05:28 +0530
+
+
+Started GET "/assets/jquery-ui/spinner-ea9e3d6dad328d69198074f73b929b40.js?body=1" for ::1 at 2015-03-19 19:05:28 +0530
+
+
+Started GET "/assets/jquery-ui/tabs-7d723642f0cea4ad8b4be12b7af40214.js?body=1" for ::1 at 2015-03-19 19:05:28 +0530
+
+
+Started GET "/assets/jquery-ui/tooltip-974e8ae1e520e685f34c034cd4170ae9.js?body=1" for ::1 at 2015-03-19 19:05:28 +0530
+
+
+Started GET "/assets/jquery-ui-25658f2409fde34c2d638c3816cdce17.js?body=1" for ::1 at 2015-03-19 19:05:28 +0530
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-19 19:05:28 +0530
+
+
+Started GET "/assets/events-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-19 19:05:28 +0530
+
+
+Started GET "/assets/moment-66988874bf5714cb1e4a6f53d733b6e1.js?body=1" for ::1 at 2015-03-19 19:05:28 +0530
+
+
+Started GET "/assets/fullcalendar-c6d8932cb3cd5ce4daf967fec5ffb732.js?body=1" for ::1 at 2015-03-19 19:05:28 +0530
+
+
+Started GET "/assets/application-0827b55d9ce201a0699fadc02250d2e3.js?body=1" for ::1 at 2015-03-19 19:05:28 +0530
+
+
+Started GET "/assets/events-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-19 19:05:28 +0530
+
+
+Started GET "/assets/scaffolds-2b19d961107b7454adcaeb9dbcdf5dc9.css?body=1" for ::1 at 2015-03-19 19:05:28 +0530
+
+
+Started GET "/assets/application-5d0c4233955cc9c8b36a33c71729c2d9.css?body=1" for ::1 at 2015-03-19 19:05:28 +0530
+
+
+Started GET "/assets/jquery-ui/theme-05be7edade4323e802d998dee06e179b.css?body=1" for ::1 at 2015-03-19 19:05:28 +0530
+
+
+Started GET "/assets/jquery-ui/core-f4781687a98e2cb886a283516f4e1448.css?body=1" for ::1 at 2015-03-19 19:05:28 +0530
+
+
+Started GET "/assets/jquery-ui/accordion-88fe7ce4b4d486a12d88f8258c22d800.css?body=1" for ::1 at 2015-03-19 19:05:28 +0530
+
+
+Started GET "/assets/jquery-ui/menu-cbcf60a86eda7f0e024da84d3453ad99.css?body=1" for ::1 at 2015-03-19 19:05:28 +0530
+
+
+Started GET "/assets/jquery-ui/autocomplete-e5d07826508dec2ae381decacfc2a1d9.css?body=1" for ::1 at 2015-03-19 19:05:28 +0530
+
+
+Started GET "/assets/jquery-ui/button-0ecc76c211636fd87b9774697a4657e7.css?body=1" for ::1 at 2015-03-19 19:05:28 +0530
+
+
+Started GET "/assets/jquery-ui/datepicker-6f959f823350ae63e0b97bf4413fdc25.css?body=1" for ::1 at 2015-03-19 19:05:28 +0530
+
+
+Started GET "/assets/jquery-ui/draggable-2398161ba77a9058d9fb592eb40f3f93.css?body=1" for ::1 at 2015-03-19 19:05:28 +0530
+
+
+Started GET "/assets/jquery-ui/resizable-fac0866a3ca409e84f793aed37f2d2fd.css?body=1" for ::1 at 2015-03-19 19:05:28 +0530
+
+
+Started GET "/assets/jquery-ui/dialog-94691976132faef225e94209691b7f6b.css?body=1" for ::1 at 2015-03-19 19:05:28 +0530
+
+
+Started GET "/assets/jquery-ui/progressbar-61cf0a7e7d964f32985a4ab47af27b63.css?body=1" for ::1 at 2015-03-19 19:05:28 +0530
+
+
+Started GET "/assets/jquery-ui/selectable-12ee86662aa0fe55647a30bedd9e0312.css?body=1" for ::1 at 2015-03-19 19:05:28 +0530
+
+
+Started GET "/assets/jquery-ui/selectmenu-95daa218f75db7a6cc5ceb480fa5c19f.css?body=1" for ::1 at 2015-03-19 19:05:28 +0530
+
+
+Started GET "/events.json?start=2015-03-01&end=2015-04-12&_=1426772128509" for ::1 at 2015-03-19 19:05:28 +0530
+Processing by EventsController#index as JSON
+  Parameters: {"start"=>"2015-03-01", "end"=>"2015-04-12", "_"=>"1426772128509"}
+  [1m[36mEvent Load (0.2ms)[0m  [1mSELECT "events".* FROM "events"[0m
+  Rendered events/index.json.jbuilder (2.4ms)
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.2ms)
+  [1m[36mEvent Load (1.8ms)[0m  [1mSELECT "events".* FROM "events"[0m
+
+
+Started GET "/assets/jquery-ui/ui-bg_glass_75_dadada_1x400-89184110a0eb80093f29f9817d88dcfb.png" for ::1 at 2015-03-19 19:12:26 +0530
+
+
+Started GET "/events" for ::1 at 2015-03-19 19:12:28 +0530
+Processing by EventsController#index as HTML
+  Rendered events/index.html.erb within layouts/application (10.6ms)
+Completed 200 OK in 577ms (Views: 572.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-ui/sortable-9e7d2fc444e389283716874a1a1ec6ad.css?body=1" for ::1 at 2015-03-19 19:12:28 +0530
+
+
+Started GET "/assets/jquery-ui/slider-f28ac6eda66cd476b176a7df6e95416a.css?body=1" for ::1 at 2015-03-19 19:12:28 +0530
+
+
+Started GET "/assets/jquery-ui-d6fb606b889c25c528dffb9c866175b8.css?body=1" for ::1 at 2015-03-19 19:12:28 +0530
+
+
+Started GET "/assets/jquery-ui/tooltip-39b71f906b596e9b132ea8fee7faf962.css?body=1" for ::1 at 2015-03-19 19:12:29 +0530
+
+
+Started GET "/assets/jquery-ui/spinner-48e1248035e483c6193aa52f76bf99dd.css?body=1" for ::1 at 2015-03-19 19:12:29 +0530
+
+
+Started GET "/assets/jquery-ui/base-35bc4884bd881640c9e64a5257ebd04e.css?body=1" for ::1 at 2015-03-19 19:12:29 +0530
+
+
+Started GET "/assets/jquery-ui/all-d6fb606b889c25c528dffb9c866175b8.css?body=1" for ::1 at 2015-03-19 19:12:29 +0530
+
+
+Started GET "/assets/fullcalendar-32ecbd03711357d4342240d33e768eba.css?body=1" for ::1 at 2015-03-19 19:12:29 +0530
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-19 19:12:29 +0530
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-19 19:12:29 +0530
+
+
+Started GET "/assets/jquery-ui/core-f6c29219d44f4267c6c5f748cb73851a.js?body=1" for ::1 at 2015-03-19 19:12:29 +0530
+
+
+Started GET "/assets/jquery-ui/widget-406fc24d615dd4370e049e85fb5f549d.js?body=1" for ::1 at 2015-03-19 19:12:29 +0530
+
+
+Started GET "/assets/jquery-ui/accordion-ad7eda240331939ff10d25352a0315bc.js?body=1" for ::1 at 2015-03-19 19:12:29 +0530
+
+
+Started GET "/assets/jquery-ui/position-65ef6bd55aa64766623cc74b5d7d353d.js?body=1" for ::1 at 2015-03-19 19:12:29 +0530
+
+
+Started GET "/assets/jquery-ui/autocomplete-5e5a4d7f1f80d346d596661253ace339.js?body=1" for ::1 at 2015-03-19 19:12:29 +0530
+
+
+Started GET "/assets/jquery-ui/button-a8037a4250da171316b7e7521b0d9d0b.js?body=1" for ::1 at 2015-03-19 19:12:29 +0530
+
+
+Started GET "/assets/jquery-ui/datepicker-28441b2cd45f0545c8a439f40b98d784.js?body=1" for ::1 at 2015-03-19 19:12:29 +0530
+
+
+Started GET "/assets/jquery-ui/mouse-504ef967eca0eb03967e3c9751c36d17.js?body=1" for ::1 at 2015-03-19 19:12:29 +0530
+
+
+Started GET "/assets/jquery-ui/draggable-d158b51e489137b213fd1eaa96a9b92a.js?body=1" for ::1 at 2015-03-19 19:12:29 +0530
+
+
+Started GET "/assets/jquery-ui/resizable-aa565fd6aa9f42700d8c54b318c0c1c8.js?body=1" for ::1 at 2015-03-19 19:12:29 +0530
+
+
+Started GET "/assets/jquery-ui/dialog-ee62065c80cb02fe6e91bf5811c59c91.js?body=1" for ::1 at 2015-03-19 19:12:29 +0530
+
+
+Started GET "/assets/jquery-ui/droppable-75fb6ed9dbb83bf1f0f29c2d15778318.js?body=1" for ::1 at 2015-03-19 19:12:29 +0530
+
+
+Started GET "/assets/jquery-ui/effect-2021355f2a0aeca6f77406c225e16af5.js?body=1" for ::1 at 2015-03-19 19:12:29 +0530
+
+
+Started GET "/assets/jquery-ui/effect-blind-49d6ffb6eb5c076034162b6d1e1745c3.js?body=1" for ::1 at 2015-03-19 19:12:29 +0530
+
+
+Started GET "/assets/jquery-ui/effect-bounce-e72f4f6a65b157d929fbd89f8b2390dd.js?body=1" for ::1 at 2015-03-19 19:12:29 +0530
+
+
+Started GET "/assets/jquery-ui/effect-clip-cd4d51c0674f351a44707a41658b7181.js?body=1" for ::1 at 2015-03-19 19:12:29 +0530
+
+
+Started GET "/assets/jquery-ui/effect-drop-def98505446ba9f512233830d6500f3a.js?body=1" for ::1 at 2015-03-19 19:12:29 +0530
+
+
+Started GET "/assets/jquery-ui/effect-explode-0a42b7e95cf8a3d90da3cb3dce943a8d.js?body=1" for ::1 at 2015-03-19 19:12:29 +0530
+
+
+Started GET "/assets/jquery-ui/effect-fade-4d808b81f828c7dc6c8b1618d80ed32b.js?body=1" for ::1 at 2015-03-19 19:12:29 +0530
+
+
+Started GET "/assets/jquery-ui/effect-fold-de72205ff2880aa41078b5abe1865cba.js?body=1" for ::1 at 2015-03-19 19:12:29 +0530
+
+
+Started GET "/assets/jquery-ui/effect-highlight-32a231f33cb93ea3ed13cb952bd04c90.js?body=1" for ::1 at 2015-03-19 19:12:29 +0530
+
+
+Started GET "/assets/jquery-ui/effect-size-c7ef7adb8e56fe4a76a11dbefcffdad9.js?body=1" for ::1 at 2015-03-19 19:12:29 +0530
+
+
+Started GET "/assets/jquery-ui/effect-scale-ce6a6c37c94c883819a78d6815bf71b7.js?body=1" for ::1 at 2015-03-19 19:12:29 +0530
+
+
+Started GET "/assets/jquery-ui/effect-puff-35dacd87c19580d27466f980033f6892.js?body=1" for ::1 at 2015-03-19 19:12:29 +0530
+
+
+Started GET "/assets/jquery-ui/effect-shake-efb89015cc38a02f2cbaaa355ebd0aa1.js?body=1" for ::1 at 2015-03-19 19:12:29 +0530
+
+
+Started GET "/assets/jquery-ui/effect-pulsate-3dbd9c7d4f02ace765adbf794ac8044c.js?body=1" for ::1 at 2015-03-19 19:12:29 +0530
+
+
+Started GET "/assets/jquery-ui/effect-transfer-6db8c857d6ae811d1e346fcaf1165390.js?body=1" for ::1 at 2015-03-19 19:12:29 +0530
+
+
+Started GET "/assets/jquery-ui/effect-slide-5627960ce4f5e1b55f41ee66fe69a1ba.js?body=1" for ::1 at 2015-03-19 19:12:29 +0530
+
+
+Started GET "/assets/jquery-ui/progressbar-5bf852897daa19be16725667f5a6d57f.js?body=1" for ::1 at 2015-03-19 19:12:29 +0530
+
+
+Started GET "/assets/jquery-ui/selectable-d48286707119e8a116e86cadea677a1b.js?body=1" for ::1 at 2015-03-19 19:12:29 +0530
+
+
+Started GET "/assets/jquery-ui/selectmenu-a8caf21ea3cb8d2fa75cef3aaa007081.js?body=1" for ::1 at 2015-03-19 19:12:29 +0530
+
+
+Started GET "/assets/jquery-ui/slider-6fc52f20a37b8f070be1c7e94660e582.js?body=1" for ::1 at 2015-03-19 19:12:29 +0530
+
+
+Started GET "/assets/jquery-ui/sortable-fe96bfa9ff14377c0dc83b42d0f191e4.js?body=1" for ::1 at 2015-03-19 19:12:29 +0530
+
+
+Started GET "/assets/jquery-ui/spinner-ea9e3d6dad328d69198074f73b929b40.js?body=1" for ::1 at 2015-03-19 19:12:29 +0530
+
+
+Started GET "/assets/jquery-ui/tabs-7d723642f0cea4ad8b4be12b7af40214.js?body=1" for ::1 at 2015-03-19 19:12:29 +0530
+
+
+Started GET "/assets/jquery-ui/tooltip-974e8ae1e520e685f34c034cd4170ae9.js?body=1" for ::1 at 2015-03-19 19:12:29 +0530
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-19 19:12:29 +0530
+
+
+Started GET "/assets/events-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-19 19:12:29 +0530
+
+
+Started GET "/assets/moment-66988874bf5714cb1e4a6f53d733b6e1.js?body=1" for ::1 at 2015-03-19 19:12:29 +0530
+
+
+Started GET "/assets/fullcalendar-c6d8932cb3cd5ce4daf967fec5ffb732.js?body=1" for ::1 at 2015-03-19 19:12:29 +0530
+
+
+Started GET "/assets/application-0827b55d9ce201a0699fadc02250d2e3.js?body=1" for ::1 at 2015-03-19 19:12:29 +0530
+
+
+Started GET "/assets/events-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-19 19:12:29 +0530
+
+
+Started GET "/assets/scaffolds-2b19d961107b7454adcaeb9dbcdf5dc9.css?body=1" for ::1 at 2015-03-19 19:12:29 +0530
+
+
+Started GET "/assets/application-5d0c4233955cc9c8b36a33c71729c2d9.css?body=1" for ::1 at 2015-03-19 19:12:29 +0530
+
+
+Started GET "/assets/jquery-ui/theme-05be7edade4323e802d998dee06e179b.css?body=1" for ::1 at 2015-03-19 19:12:29 +0530
+
+
+Started GET "/assets/jquery-ui/core-f4781687a98e2cb886a283516f4e1448.css?body=1" for ::1 at 2015-03-19 19:12:29 +0530
+
+
+Started GET "/assets/jquery-ui/accordion-88fe7ce4b4d486a12d88f8258c22d800.css?body=1" for ::1 at 2015-03-19 19:12:29 +0530
+
+
+Started GET "/assets/jquery-ui/menu-cbcf60a86eda7f0e024da84d3453ad99.css?body=1" for ::1 at 2015-03-19 19:12:29 +0530
+
+
+Started GET "/assets/jquery-ui/autocomplete-e5d07826508dec2ae381decacfc2a1d9.css?body=1" for ::1 at 2015-03-19 19:12:29 +0530
+
+
+Started GET "/assets/jquery-ui/button-0ecc76c211636fd87b9774697a4657e7.css?body=1" for ::1 at 2015-03-19 19:12:29 +0530
+
+
+Started GET "/assets/jquery-ui/datepicker-6f959f823350ae63e0b97bf4413fdc25.css?body=1" for ::1 at 2015-03-19 19:12:29 +0530
+
+
+Started GET "/assets/jquery-ui/draggable-2398161ba77a9058d9fb592eb40f3f93.css?body=1" for ::1 at 2015-03-19 19:12:29 +0530
+
+
+Started GET "/assets/jquery-ui/resizable-fac0866a3ca409e84f793aed37f2d2fd.css?body=1" for ::1 at 2015-03-19 19:12:29 +0530
+
+
+Started GET "/assets/jquery-ui/dialog-94691976132faef225e94209691b7f6b.css?body=1" for ::1 at 2015-03-19 19:12:29 +0530
+
+
+Started GET "/assets/jquery-ui/progressbar-61cf0a7e7d964f32985a4ab47af27b63.css?body=1" for ::1 at 2015-03-19 19:12:29 +0530
+
+
+Started GET "/assets/jquery-ui/selectable-12ee86662aa0fe55647a30bedd9e0312.css?body=1" for ::1 at 2015-03-19 19:12:29 +0530
+
+
+Started GET "/assets/jquery-ui/selectmenu-95daa218f75db7a6cc5ceb480fa5c19f.css?body=1" for ::1 at 2015-03-19 19:12:29 +0530
+
+
+Started GET "/assets/jquery-ui/tabs-9ffeb92c9db8bddb6a62a90240ed0050.css?body=1" for ::1 at 2015-03-19 19:12:29 +0530
+
+
+Started GET "/assets/jquery-ui/menu-7a7c9529e62d35813ed0a71fa95242f2.js?body=1" for ::1 at 2015-03-19 19:12:29 +0530
+
+
+Started GET "/assets/jquery-ui-25658f2409fde34c2d638c3816cdce17.js?body=1" for ::1 at 2015-03-19 19:12:29 +0530
+
+
+Started GET "/events.json?start=2015-03-01&end=2015-04-12&_=1426772549383" for ::1 at 2015-03-19 19:12:29 +0530
+Processing by EventsController#index as JSON
+  Parameters: {"start"=>"2015-03-01", "end"=>"2015-04-12", "_"=>"1426772549383"}
+  [1m[35mEvent Load (0.5ms)[0m  SELECT "events".* FROM "events"
+  Rendered events/index.json.jbuilder (12.1ms)
+Completed 200 OK in 15ms (Views: 13.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/jquery-ui/ui-bg_flat_75_ffffff_40x100-c0709c24dfc2efb19007471eb78d579c.png" for ::1 at 2015-03-19 19:12:30 +0530
+
+
+Started GET "/assets/jquery-ui/ui-bg_highlight-soft_75_cccccc_1x100-2d46a399f87f992896ffbaee4850738d.png" for ::1 at 2015-03-19 19:12:30 +0530
+
+
+Started GET "/assets/jquery-ui/ui-icons_222222_256x240-8e3b8ce605a3729e43ce99c3341e042e.png" for ::1 at 2015-03-19 19:12:30 +0530
+
+
+Started GET "/assets/jquery-ui/ui-bg_glass_75_e6e6e6_1x400-74e4fbd3fcc6242de3a262119f48fa0f.png" for ::1 at 2015-03-19 19:12:30 +0530
+
+
+Started GET "/assets/jquery-ui/ui-icons_888888_256x240-b468db7a88a363bf1498a4d43af87098.png" for ::1 at 2015-03-19 19:12:30 +0530
+
+
+Started GET "/assets/jquery-ui/ui-bg_glass_75_dadada_1x400-89184110a0eb80093f29f9817d88dcfb.png" for ::1 at 2015-03-19 19:12:35 +0530
+
+
+Started GET "/assets/jquery-ui/ui-icons_454545_256x240-2a33e8888733daef3101a82d3e4c63a1.png" for ::1 at 2015-03-19 19:12:35 +0530
+
+
+Started GET "/assets/jquery-ui/ui-bg_glass_65_ffffff_1x400-2aef1a76623b6497407c1b4bb0ff846a.png" for ::1 at 2015-03-19 19:12:36 +0530
+
+
+Started GET "/events" for ::1 at 2015-03-19 19:31:59 +0530
+Processing by EventsController#index as HTML
+  Rendered events/index.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 577ms (Views: 575.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-ui/sortable-9e7d2fc444e389283716874a1a1ec6ad.css?body=1" for ::1 at 2015-03-19 19:31:59 +0530
+
+
+Started GET "/assets/jquery-ui/slider-f28ac6eda66cd476b176a7df6e95416a.css?body=1" for ::1 at 2015-03-19 19:31:59 +0530
+
+
+Started GET "/assets/jquery-ui/spinner-48e1248035e483c6193aa52f76bf99dd.css?body=1" for ::1 at 2015-03-19 19:31:59 +0530
+
+
+Started GET "/assets/jquery-ui-d6fb606b889c25c528dffb9c866175b8.css?body=1" for ::1 at 2015-03-19 19:31:59 +0530
+
+
+Started GET "/assets/jquery-ui/tooltip-39b71f906b596e9b132ea8fee7faf962.css?body=1" for ::1 at 2015-03-19 19:31:59 +0530
+
+
+Started GET "/assets/jquery-ui/base-35bc4884bd881640c9e64a5257ebd04e.css?body=1" for ::1 at 2015-03-19 19:31:59 +0530
+
+
+Started GET "/assets/fullcalendar-32ecbd03711357d4342240d33e768eba.css?body=1" for ::1 at 2015-03-19 19:31:59 +0530
+
+
+Started GET "/assets/jquery-ui/all-d6fb606b889c25c528dffb9c866175b8.css?body=1" for ::1 at 2015-03-19 19:31:59 +0530
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-19 19:31:59 +0530
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-19 19:31:59 +0530
+
+
+Started GET "/assets/jquery-ui/core-f6c29219d44f4267c6c5f748cb73851a.js?body=1" for ::1 at 2015-03-19 19:31:59 +0530
+
+
+Started GET "/assets/jquery-ui/widget-406fc24d615dd4370e049e85fb5f549d.js?body=1" for ::1 at 2015-03-19 19:31:59 +0530
+
+
+Started GET "/assets/jquery-ui/accordion-ad7eda240331939ff10d25352a0315bc.js?body=1" for ::1 at 2015-03-19 19:31:59 +0530
+
+
+Started GET "/assets/jquery-ui/position-65ef6bd55aa64766623cc74b5d7d353d.js?body=1" for ::1 at 2015-03-19 19:31:59 +0530
+
+
+Started GET "/assets/jquery-ui/button-a8037a4250da171316b7e7521b0d9d0b.js?body=1" for ::1 at 2015-03-19 19:31:59 +0530
+
+
+Started GET "/assets/jquery-ui/autocomplete-5e5a4d7f1f80d346d596661253ace339.js?body=1" for ::1 at 2015-03-19 19:31:59 +0530
+
+
+Started GET "/assets/jquery-ui/datepicker-28441b2cd45f0545c8a439f40b98d784.js?body=1" for ::1 at 2015-03-19 19:31:59 +0530
+
+
+Started GET "/assets/jquery-ui/draggable-d158b51e489137b213fd1eaa96a9b92a.js?body=1" for ::1 at 2015-03-19 19:31:59 +0530
+
+
+Started GET "/assets/jquery-ui/resizable-aa565fd6aa9f42700d8c54b318c0c1c8.js?body=1" for ::1 at 2015-03-19 19:31:59 +0530
+
+
+Started GET "/assets/jquery-ui/dialog-ee62065c80cb02fe6e91bf5811c59c91.js?body=1" for ::1 at 2015-03-19 19:31:59 +0530
+
+
+Started GET "/assets/jquery-ui/droppable-75fb6ed9dbb83bf1f0f29c2d15778318.js?body=1" for ::1 at 2015-03-19 19:31:59 +0530
+
+
+Started GET "/assets/jquery-ui/selectmenu-a8caf21ea3cb8d2fa75cef3aaa007081.js?body=1" for ::1 at 2015-03-19 19:31:59 +0530
+
+
+Started GET "/assets/jquery-ui/slider-6fc52f20a37b8f070be1c7e94660e582.js?body=1" for ::1 at 2015-03-19 19:31:59 +0530
+
+
+Started GET "/assets/jquery-ui/sortable-fe96bfa9ff14377c0dc83b42d0f191e4.js?body=1" for ::1 at 2015-03-19 19:31:59 +0530
+
+
+Started GET "/assets/jquery-ui/spinner-ea9e3d6dad328d69198074f73b929b40.js?body=1" for ::1 at 2015-03-19 19:31:59 +0530
+
+
+Started GET "/assets/jquery-ui/tabs-7d723642f0cea4ad8b4be12b7af40214.js?body=1" for ::1 at 2015-03-19 19:31:59 +0530
+
+
+Started GET "/assets/jquery-ui/tooltip-974e8ae1e520e685f34c034cd4170ae9.js?body=1" for ::1 at 2015-03-19 19:31:59 +0530
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-19 19:31:59 +0530
+
+
+Started GET "/assets/events-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-19 19:31:59 +0530
+
+
+Started GET "/assets/moment-66988874bf5714cb1e4a6f53d733b6e1.js?body=1" for ::1 at 2015-03-19 19:31:59 +0530
+
+
+Started GET "/assets/fullcalendar-c6d8932cb3cd5ce4daf967fec5ffb732.js?body=1" for ::1 at 2015-03-19 19:31:59 +0530
+
+
+Started GET "/assets/application-0827b55d9ce201a0699fadc02250d2e3.js?body=1" for ::1 at 2015-03-19 19:32:00 +0530
+
+
+Started GET "/assets/events-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-19 19:32:00 +0530
+
+
+Started GET "/assets/scaffolds-2b19d961107b7454adcaeb9dbcdf5dc9.css?body=1" for ::1 at 2015-03-19 19:32:00 +0530
+
+
+Started GET "/assets/application-5d0c4233955cc9c8b36a33c71729c2d9.css?body=1" for ::1 at 2015-03-19 19:32:00 +0530
+
+
+Started GET "/assets/jquery-ui/theme-05be7edade4323e802d998dee06e179b.css?body=1" for ::1 at 2015-03-19 19:32:00 +0530
+
+
+Started GET "/assets/jquery-ui/core-f4781687a98e2cb886a283516f4e1448.css?body=1" for ::1 at 2015-03-19 19:32:00 +0530
+
+
+Started GET "/assets/jquery-ui/accordion-88fe7ce4b4d486a12d88f8258c22d800.css?body=1" for ::1 at 2015-03-19 19:32:00 +0530
+
+
+Started GET "/assets/jquery-ui/menu-cbcf60a86eda7f0e024da84d3453ad99.css?body=1" for ::1 at 2015-03-19 19:32:00 +0530
+
+
+Started GET "/assets/jquery-ui/autocomplete-e5d07826508dec2ae381decacfc2a1d9.css?body=1" for ::1 at 2015-03-19 19:32:00 +0530
+
+
+Started GET "/assets/jquery-ui/button-0ecc76c211636fd87b9774697a4657e7.css?body=1" for ::1 at 2015-03-19 19:32:00 +0530
+
+
+Started GET "/assets/jquery-ui/datepicker-6f959f823350ae63e0b97bf4413fdc25.css?body=1" for ::1 at 2015-03-19 19:32:00 +0530
+
+
+Started GET "/assets/jquery-ui/draggable-2398161ba77a9058d9fb592eb40f3f93.css?body=1" for ::1 at 2015-03-19 19:32:00 +0530
+
+
+Started GET "/assets/jquery-ui/resizable-fac0866a3ca409e84f793aed37f2d2fd.css?body=1" for ::1 at 2015-03-19 19:32:00 +0530
+
+
+Started GET "/assets/jquery-ui/progressbar-61cf0a7e7d964f32985a4ab47af27b63.css?body=1" for ::1 at 2015-03-19 19:32:00 +0530
+
+
+Started GET "/assets/jquery-ui/dialog-94691976132faef225e94209691b7f6b.css?body=1" for ::1 at 2015-03-19 19:32:00 +0530
+
+
+Started GET "/assets/jquery-ui/selectable-12ee86662aa0fe55647a30bedd9e0312.css?body=1" for ::1 at 2015-03-19 19:32:00 +0530
+
+
+Started GET "/assets/jquery-ui/selectmenu-95daa218f75db7a6cc5ceb480fa5c19f.css?body=1" for ::1 at 2015-03-19 19:32:00 +0530
+
+
+Started GET "/assets/jquery-ui/tabs-9ffeb92c9db8bddb6a62a90240ed0050.css?body=1" for ::1 at 2015-03-19 19:32:00 +0530
+
+
+Started GET "/assets/jquery-ui/menu-7a7c9529e62d35813ed0a71fa95242f2.js?body=1" for ::1 at 2015-03-19 19:32:00 +0530
+
+
+Started GET "/assets/jquery-ui/mouse-504ef967eca0eb03967e3c9751c36d17.js?body=1" for ::1 at 2015-03-19 19:32:00 +0530
+
+
+Started GET "/assets/jquery-ui/effect-2021355f2a0aeca6f77406c225e16af5.js?body=1" for ::1 at 2015-03-19 19:32:00 +0530
+
+
+Started GET "/assets/jquery-ui/effect-blind-49d6ffb6eb5c076034162b6d1e1745c3.js?body=1" for ::1 at 2015-03-19 19:32:00 +0530
+
+
+Started GET "/assets/jquery-ui/effect-bounce-e72f4f6a65b157d929fbd89f8b2390dd.js?body=1" for ::1 at 2015-03-19 19:32:00 +0530
+
+
+Started GET "/assets/jquery-ui/effect-clip-cd4d51c0674f351a44707a41658b7181.js?body=1" for ::1 at 2015-03-19 19:32:00 +0530
+
+
+Started GET "/assets/jquery-ui/effect-drop-def98505446ba9f512233830d6500f3a.js?body=1" for ::1 at 2015-03-19 19:32:00 +0530
+
+
+Started GET "/assets/jquery-ui/effect-explode-0a42b7e95cf8a3d90da3cb3dce943a8d.js?body=1" for ::1 at 2015-03-19 19:32:00 +0530
+
+
+Started GET "/assets/jquery-ui/effect-fade-4d808b81f828c7dc6c8b1618d80ed32b.js?body=1" for ::1 at 2015-03-19 19:32:00 +0530
+
+
+Started GET "/assets/jquery-ui/effect-fold-de72205ff2880aa41078b5abe1865cba.js?body=1" for ::1 at 2015-03-19 19:32:00 +0530
+
+
+Started GET "/assets/jquery-ui/effect-highlight-32a231f33cb93ea3ed13cb952bd04c90.js?body=1" for ::1 at 2015-03-19 19:32:00 +0530
+
+
+Started GET "/assets/jquery-ui/effect-size-c7ef7adb8e56fe4a76a11dbefcffdad9.js?body=1" for ::1 at 2015-03-19 19:32:00 +0530
+
+
+Started GET "/assets/jquery-ui/effect-scale-ce6a6c37c94c883819a78d6815bf71b7.js?body=1" for ::1 at 2015-03-19 19:32:00 +0530
+
+
+Started GET "/assets/jquery-ui/effect-puff-35dacd87c19580d27466f980033f6892.js?body=1" for ::1 at 2015-03-19 19:32:00 +0530
+
+
+Started GET "/assets/jquery-ui/effect-pulsate-3dbd9c7d4f02ace765adbf794ac8044c.js?body=1" for ::1 at 2015-03-19 19:32:00 +0530
+
+
+Started GET "/assets/jquery-ui/effect-shake-efb89015cc38a02f2cbaaa355ebd0aa1.js?body=1" for ::1 at 2015-03-19 19:32:00 +0530
+
+
+Started GET "/assets/jquery-ui/effect-transfer-6db8c857d6ae811d1e346fcaf1165390.js?body=1" for ::1 at 2015-03-19 19:32:00 +0530
+
+
+Started GET "/assets/jquery-ui/effect-slide-5627960ce4f5e1b55f41ee66fe69a1ba.js?body=1" for ::1 at 2015-03-19 19:32:00 +0530
+
+
+Started GET "/assets/jquery-ui/progressbar-5bf852897daa19be16725667f5a6d57f.js?body=1" for ::1 at 2015-03-19 19:32:00 +0530
+
+
+Started GET "/assets/jquery-ui/selectable-d48286707119e8a116e86cadea677a1b.js?body=1" for ::1 at 2015-03-19 19:32:00 +0530
+
+
+Started GET "/assets/jquery-ui-25658f2409fde34c2d638c3816cdce17.js?body=1" for ::1 at 2015-03-19 19:32:00 +0530
+
+
+Started GET "/events.json?start=2015-03-01&end=2015-04-12&_=1426773720128" for ::1 at 2015-03-19 19:32:00 +0530
+Processing by EventsController#index as JSON
+  Parameters: {"start"=>"2015-03-01", "end"=>"2015-04-12", "_"=>"1426773720128"}
+  [1m[36mEvent Load (0.2ms)[0m  [1mSELECT "events".* FROM "events"[0m
+  Rendered events/index.json.jbuilder (2.6ms)
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/events" for ::1 at 2015-03-19 19:34:07 +0530
+Processing by EventsController#index as HTML
+  Rendered events/index.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 663ms (Views: 662.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-ui/selectable-12ee86662aa0fe55647a30bedd9e0312.css?body=1" for ::1 at 2015-03-19 19:34:08 +0530
+
+
+Started GET "/assets/jquery-ui/sortable-9e7d2fc444e389283716874a1a1ec6ad.css?body=1" for ::1 at 2015-03-19 19:34:08 +0530
+
+
+Started GET "/assets/jquery-ui/base-35bc4884bd881640c9e64a5257ebd04e.css?body=1" for ::1 at 2015-03-19 19:34:08 +0530
+
+
+Started GET "/assets/jquery-ui/slider-f28ac6eda66cd476b176a7df6e95416a.css?body=1" for ::1 at 2015-03-19 19:34:08 +0530
+
+
+Started GET "/assets/jquery-ui/tooltip-39b71f906b596e9b132ea8fee7faf962.css?body=1" for ::1 at 2015-03-19 19:34:08 +0530
+
+
+Started GET "/assets/jquery-ui/tabs-9ffeb92c9db8bddb6a62a90240ed0050.css?body=1" for ::1 at 2015-03-19 19:34:08 +0530
+
+
+Started GET "/assets/jquery-ui/spinner-48e1248035e483c6193aa52f76bf99dd.css?body=1" for ::1 at 2015-03-19 19:34:08 +0530
+
+
+Started GET "/assets/jquery-ui/all-d6fb606b889c25c528dffb9c866175b8.css?body=1" for ::1 at 2015-03-19 19:34:08 +0530
+
+
+Started GET "/assets/jquery-ui-d6fb606b889c25c528dffb9c866175b8.css?body=1" for ::1 at 2015-03-19 19:34:08 +0530
+
+
+Started GET "/assets/fullcalendar-32ecbd03711357d4342240d33e768eba.css?body=1" for ::1 at 2015-03-19 19:34:08 +0530
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-19 19:34:08 +0530
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-19 19:34:08 +0530
+
+
+Started GET "/assets/jquery-ui/core-f6c29219d44f4267c6c5f748cb73851a.js?body=1" for ::1 at 2015-03-19 19:34:08 +0530
+
+
+Started GET "/assets/jquery-ui/widget-406fc24d615dd4370e049e85fb5f549d.js?body=1" for ::1 at 2015-03-19 19:34:08 +0530
+
+
+Started GET "/assets/jquery-ui/accordion-ad7eda240331939ff10d25352a0315bc.js?body=1" for ::1 at 2015-03-19 19:34:08 +0530
+
+
+Started GET "/assets/jquery-ui/position-65ef6bd55aa64766623cc74b5d7d353d.js?body=1" for ::1 at 2015-03-19 19:34:08 +0530
+
+
+Started GET "/assets/jquery-ui/menu-7a7c9529e62d35813ed0a71fa95242f2.js?body=1" for ::1 at 2015-03-19 19:34:08 +0530
+
+
+Started GET "/assets/jquery-ui/autocomplete-5e5a4d7f1f80d346d596661253ace339.js?body=1" for ::1 at 2015-03-19 19:34:08 +0530
+
+
+Started GET "/assets/jquery-ui/button-a8037a4250da171316b7e7521b0d9d0b.js?body=1" for ::1 at 2015-03-19 19:34:08 +0530
+
+
+Started GET "/assets/jquery-ui/datepicker-28441b2cd45f0545c8a439f40b98d784.js?body=1" for ::1 at 2015-03-19 19:34:08 +0530
+
+
+Started GET "/assets/jquery-ui/draggable-d158b51e489137b213fd1eaa96a9b92a.js?body=1" for ::1 at 2015-03-19 19:34:08 +0530
+
+
+Started GET "/assets/jquery-ui/resizable-aa565fd6aa9f42700d8c54b318c0c1c8.js?body=1" for ::1 at 2015-03-19 19:34:08 +0530
+
+
+Started GET "/assets/jquery-ui/dialog-ee62065c80cb02fe6e91bf5811c59c91.js?body=1" for ::1 at 2015-03-19 19:34:08 +0530
+
+
+Started GET "/assets/jquery-ui/effect-puff-35dacd87c19580d27466f980033f6892.js?body=1" for ::1 at 2015-03-19 19:34:08 +0530
+
+
+Started GET "/assets/jquery-ui/droppable-75fb6ed9dbb83bf1f0f29c2d15778318.js?body=1" for ::1 at 2015-03-19 19:34:08 +0530
+
+
+Started GET "/assets/jquery-ui/effect-pulsate-3dbd9c7d4f02ace765adbf794ac8044c.js?body=1" for ::1 at 2015-03-19 19:34:08 +0530
+
+
+Started GET "/assets/jquery-ui/effect-shake-efb89015cc38a02f2cbaaa355ebd0aa1.js?body=1" for ::1 at 2015-03-19 19:34:08 +0530
+
+
+Started GET "/assets/jquery-ui/effect-slide-5627960ce4f5e1b55f41ee66fe69a1ba.js?body=1" for ::1 at 2015-03-19 19:34:08 +0530
+
+
+Started GET "/assets/jquery-ui/effect-transfer-6db8c857d6ae811d1e346fcaf1165390.js?body=1" for ::1 at 2015-03-19 19:34:08 +0530
+
+
+Started GET "/assets/jquery-ui/progressbar-5bf852897daa19be16725667f5a6d57f.js?body=1" for ::1 at 2015-03-19 19:34:08 +0530
+
+
+Started GET "/assets/jquery-ui/selectable-d48286707119e8a116e86cadea677a1b.js?body=1" for ::1 at 2015-03-19 19:34:08 +0530
+
+
+Started GET "/assets/jquery-ui/selectmenu-a8caf21ea3cb8d2fa75cef3aaa007081.js?body=1" for ::1 at 2015-03-19 19:34:08 +0530
+
+
+Started GET "/assets/jquery-ui/slider-6fc52f20a37b8f070be1c7e94660e582.js?body=1" for ::1 at 2015-03-19 19:34:08 +0530
+
+
+Started GET "/assets/jquery-ui/sortable-fe96bfa9ff14377c0dc83b42d0f191e4.js?body=1" for ::1 at 2015-03-19 19:34:08 +0530
+
+
+Started GET "/assets/jquery-ui/spinner-ea9e3d6dad328d69198074f73b929b40.js?body=1" for ::1 at 2015-03-19 19:34:08 +0530
+
+
+Started GET "/assets/jquery-ui/tabs-7d723642f0cea4ad8b4be12b7af40214.js?body=1" for ::1 at 2015-03-19 19:34:08 +0530
+
+
+Started GET "/assets/jquery-ui/tooltip-974e8ae1e520e685f34c034cd4170ae9.js?body=1" for ::1 at 2015-03-19 19:34:08 +0530
+
+
+Started GET "/assets/jquery-ui-25658f2409fde34c2d638c3816cdce17.js?body=1" for ::1 at 2015-03-19 19:34:08 +0530
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-19 19:34:08 +0530
+
+
+Started GET "/assets/events-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-19 19:34:08 +0530
+
+
+Started GET "/assets/fullcalendar-c6d8932cb3cd5ce4daf967fec5ffb732.js?body=1" for ::1 at 2015-03-19 19:34:08 +0530
+
+
+Started GET "/assets/moment-66988874bf5714cb1e4a6f53d733b6e1.js?body=1" for ::1 at 2015-03-19 19:34:08 +0530
+
+
+Started GET "/assets/application-0bcbb0000e69bb48d7aea0e9a0a887e3.js?body=1" for ::1 at 2015-03-19 19:34:08 +0530
+
+
+Started GET "/assets/events-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-19 19:34:08 +0530
+
+
+Started GET "/assets/scaffolds-2b19d961107b7454adcaeb9dbcdf5dc9.css?body=1" for ::1 at 2015-03-19 19:34:08 +0530
+
+
+Started GET "/assets/application-5d0c4233955cc9c8b36a33c71729c2d9.css?body=1" for ::1 at 2015-03-19 19:34:08 +0530
+
+
+Started GET "/assets/jquery-ui/theme-05be7edade4323e802d998dee06e179b.css?body=1" for ::1 at 2015-03-19 19:34:08 +0530
+
+
+Started GET "/assets/jquery-ui/core-f4781687a98e2cb886a283516f4e1448.css?body=1" for ::1 at 2015-03-19 19:34:08 +0530
+
+
+Started GET "/assets/jquery-ui/accordion-88fe7ce4b4d486a12d88f8258c22d800.css?body=1" for ::1 at 2015-03-19 19:34:08 +0530
+
+
+Started GET "/assets/jquery-ui/menu-cbcf60a86eda7f0e024da84d3453ad99.css?body=1" for ::1 at 2015-03-19 19:34:08 +0530
+
+
+Started GET "/assets/jquery-ui/autocomplete-e5d07826508dec2ae381decacfc2a1d9.css?body=1" for ::1 at 2015-03-19 19:34:08 +0530
+
+
+Started GET "/assets/jquery-ui/button-0ecc76c211636fd87b9774697a4657e7.css?body=1" for ::1 at 2015-03-19 19:34:08 +0530
+
+
+Started GET "/assets/jquery-ui/datepicker-6f959f823350ae63e0b97bf4413fdc25.css?body=1" for ::1 at 2015-03-19 19:34:08 +0530
+
+
+Started GET "/assets/jquery-ui/draggable-2398161ba77a9058d9fb592eb40f3f93.css?body=1" for ::1 at 2015-03-19 19:34:08 +0530
+
+
+Started GET "/assets/jquery-ui/resizable-fac0866a3ca409e84f793aed37f2d2fd.css?body=1" for ::1 at 2015-03-19 19:34:08 +0530
+
+
+Started GET "/assets/jquery-ui/dialog-94691976132faef225e94209691b7f6b.css?body=1" for ::1 at 2015-03-19 19:34:08 +0530
+
+
+Started GET "/assets/jquery-ui/progressbar-61cf0a7e7d964f32985a4ab47af27b63.css?body=1" for ::1 at 2015-03-19 19:34:08 +0530
+
+
+Started GET "/assets/jquery-ui/selectmenu-95daa218f75db7a6cc5ceb480fa5c19f.css?body=1" for ::1 at 2015-03-19 19:34:08 +0530
+
+
+Started GET "/assets/jquery-ui/mouse-504ef967eca0eb03967e3c9751c36d17.js?body=1" for ::1 at 2015-03-19 19:34:08 +0530
+
+
+Started GET "/assets/jquery-ui/effect-2021355f2a0aeca6f77406c225e16af5.js?body=1" for ::1 at 2015-03-19 19:34:08 +0530
+
+
+Started GET "/assets/jquery-ui/effect-blind-49d6ffb6eb5c076034162b6d1e1745c3.js?body=1" for ::1 at 2015-03-19 19:34:09 +0530
+
+
+Started GET "/assets/jquery-ui/effect-bounce-e72f4f6a65b157d929fbd89f8b2390dd.js?body=1" for ::1 at 2015-03-19 19:34:09 +0530
+
+
+Started GET "/assets/jquery-ui/effect-clip-cd4d51c0674f351a44707a41658b7181.js?body=1" for ::1 at 2015-03-19 19:34:09 +0530
+
+
+Started GET "/assets/jquery-ui/effect-drop-def98505446ba9f512233830d6500f3a.js?body=1" for ::1 at 2015-03-19 19:34:09 +0530
+
+
+Started GET "/assets/jquery-ui/effect-explode-0a42b7e95cf8a3d90da3cb3dce943a8d.js?body=1" for ::1 at 2015-03-19 19:34:09 +0530
+
+
+Started GET "/assets/jquery-ui/effect-fade-4d808b81f828c7dc6c8b1618d80ed32b.js?body=1" for ::1 at 2015-03-19 19:34:09 +0530
+
+
+Started GET "/assets/jquery-ui/effect-fold-de72205ff2880aa41078b5abe1865cba.js?body=1" for ::1 at 2015-03-19 19:34:09 +0530
+
+
+Started GET "/assets/jquery-ui/effect-highlight-32a231f33cb93ea3ed13cb952bd04c90.js?body=1" for ::1 at 2015-03-19 19:34:09 +0530
+
+
+Started GET "/assets/jquery-ui/effect-size-c7ef7adb8e56fe4a76a11dbefcffdad9.js?body=1" for ::1 at 2015-03-19 19:34:09 +0530
+
+
+Started GET "/assets/jquery-ui/effect-scale-ce6a6c37c94c883819a78d6815bf71b7.js?body=1" for ::1 at 2015-03-19 19:34:09 +0530
+
+
+Started GET "/events.json?start=2015-03-01&end=2015-04-12&_=1426773849012" for ::1 at 2015-03-19 19:34:09 +0530
+Processing by EventsController#index as JSON
+  Parameters: {"start"=>"2015-03-01", "end"=>"2015-04-12", "_"=>"1426773849012"}
+  [1m[35mEvent Load (0.2ms)[0m  SELECT "events".* FROM "events"
+  Rendered events/index.json.jbuilder (2.6ms)
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery-ui/ui-bg_flat_75_ffffff_40x100-c0709c24dfc2efb19007471eb78d579c.png" for ::1 at 2015-03-19 19:34:09 +0530
+
+
+Started GET "/assets/jquery-ui/ui-icons_222222_256x240-8e3b8ce605a3729e43ce99c3341e042e.png" for ::1 at 2015-03-19 19:34:09 +0530
+
+
+Started GET "/assets/jquery-ui/ui-bg_highlight-soft_75_cccccc_1x100-2d46a399f87f992896ffbaee4850738d.png" for ::1 at 2015-03-19 19:34:09 +0530
+
+
+Started GET "/assets/jquery-ui/ui-bg_glass_75_e6e6e6_1x400-74e4fbd3fcc6242de3a262119f48fa0f.png" for ::1 at 2015-03-19 19:34:09 +0530
+
+
+Started GET "/assets/jquery-ui/ui-icons_888888_256x240-b468db7a88a363bf1498a4d43af87098.png" for ::1 at 2015-03-19 19:34:09 +0530
+
+
+Started POST "/events" for ::1 at 2015-03-19 19:34:17 +0530
+Processing by EventsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"raBel3smmx4rtEF3yvSLGUkF2YjH2SaH/GKZBpjGxlNvY6gL7+95lg5LnWmzls5GUU+dzlDAOMfvNG5rLW8GPw==", "event"=>{"title"=>"sxxs", "description"=>"xsxs", "start_time(1i)"=>"2015", "start_time(2i)"=>"3", "start_time(3i)"=>"10", "start_time(4i)"=>"00", "start_time(5i)"=>"00", "repeat"=>"Weekly", "repeat_freq"=>"2", "repeat_week_days"=>"{:id=>\"repeat_week_days\"}"}, "commit"=>"Save Event"}
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "events" ("title", "description", "repeat", "repeat_freq", "start_time", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["title", "sxxs"], ["description", "xsxs"], ["repeat", "Weekly{:id=>\"repeat_week_days\"}"], ["repeat_freq", 2], ["start_time", "2015-03-10 00:00:00.000000"], ["created_at", "2015-03-19 14:04:30.326675"], ["updated_at", "2015-03-19 14:04:30.326675"]]
+  [1m[36m (2.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/events
+Completed 302 Found in 12653ms (ActiveRecord: 2.7ms)
+
+
+Started GET "/events" for ::1 at 2015-03-19 19:34:30 +0530
+Processing by EventsController#index as HTML
+  Rendered events/index.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 576ms (Views: 575.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/events-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-19 19:34:30 +0530
+
+
+Started GET "/assets/jquery-ui/accordion-88fe7ce4b4d486a12d88f8258c22d800.css?body=1" for ::1 at 2015-03-19 19:34:30 +0530
+
+
+Started GET "/assets/scaffolds-2b19d961107b7454adcaeb9dbcdf5dc9.css?body=1" for ::1 at 2015-03-19 19:34:30 +0530
+
+
+Started GET "/assets/application-5d0c4233955cc9c8b36a33c71729c2d9.css?body=1" for ::1 at 2015-03-19 19:34:30 +0530
+
+
+Started GET "/assets/jquery-ui/core-f4781687a98e2cb886a283516f4e1448.css?body=1" for ::1 at 2015-03-19 19:34:30 +0530
+
+
+Started GET "/assets/jquery-ui/theme-05be7edade4323e802d998dee06e179b.css?body=1" for ::1 at 2015-03-19 19:34:30 +0530
+
+
+Started GET "/assets/jquery-ui/menu-cbcf60a86eda7f0e024da84d3453ad99.css?body=1" for ::1 at 2015-03-19 19:34:31 +0530
+
+
+Started GET "/assets/jquery-ui/autocomplete-e5d07826508dec2ae381decacfc2a1d9.css?body=1" for ::1 at 2015-03-19 19:34:31 +0530
+
+
+Started GET "/assets/jquery-ui/button-0ecc76c211636fd87b9774697a4657e7.css?body=1" for ::1 at 2015-03-19 19:34:31 +0530
+
+
+Started GET "/assets/jquery-ui/datepicker-6f959f823350ae63e0b97bf4413fdc25.css?body=1" for ::1 at 2015-03-19 19:34:31 +0530
+
+
+Started GET "/assets/jquery-ui/draggable-2398161ba77a9058d9fb592eb40f3f93.css?body=1" for ::1 at 2015-03-19 19:34:31 +0530
+
+
+Started GET "/assets/jquery-ui/resizable-fac0866a3ca409e84f793aed37f2d2fd.css?body=1" for ::1 at 2015-03-19 19:34:31 +0530
+
+
+Started GET "/assets/jquery-ui/dialog-94691976132faef225e94209691b7f6b.css?body=1" for ::1 at 2015-03-19 19:34:31 +0530
+
+
+Started GET "/assets/jquery-ui/progressbar-61cf0a7e7d964f32985a4ab47af27b63.css?body=1" for ::1 at 2015-03-19 19:34:31 +0530
+
+
+Started GET "/assets/jquery-ui/selectmenu-95daa218f75db7a6cc5ceb480fa5c19f.css?body=1" for ::1 at 2015-03-19 19:34:31 +0530
+
+
+Started GET "/assets/jquery-ui/sortable-9e7d2fc444e389283716874a1a1ec6ad.css?body=1" for ::1 at 2015-03-19 19:34:31 +0530
+
+
+Started GET "/assets/jquery-ui/slider-f28ac6eda66cd476b176a7df6e95416a.css?body=1" for ::1 at 2015-03-19 19:34:31 +0530
+
+
+Started GET "/assets/jquery-ui/spinner-48e1248035e483c6193aa52f76bf99dd.css?body=1" for ::1 at 2015-03-19 19:34:31 +0530
+
+
+Started GET "/assets/jquery-ui/all-d6fb606b889c25c528dffb9c866175b8.css?body=1" for ::1 at 2015-03-19 19:34:31 +0530
+
+
+Started GET "/assets/jquery-ui/core-f6c29219d44f4267c6c5f748cb73851a.js?body=1" for ::1 at 2015-03-19 19:34:31 +0530
+
+
+Started GET "/assets/jquery-ui/widget-406fc24d615dd4370e049e85fb5f549d.js?body=1" for ::1 at 2015-03-19 19:34:31 +0530
+
+
+Started GET "/assets/jquery-ui/accordion-ad7eda240331939ff10d25352a0315bc.js?body=1" for ::1 at 2015-03-19 19:34:31 +0530
+
+
+Started GET "/assets/jquery-ui/position-65ef6bd55aa64766623cc74b5d7d353d.js?body=1" for ::1 at 2015-03-19 19:34:31 +0530
+
+
+Started GET "/assets/jquery-ui/autocomplete-5e5a4d7f1f80d346d596661253ace339.js?body=1" for ::1 at 2015-03-19 19:34:31 +0530
+
+
+Started GET "/assets/jquery-ui/button-a8037a4250da171316b7e7521b0d9d0b.js?body=1" for ::1 at 2015-03-19 19:34:31 +0530
+
+
+Started GET "/assets/jquery-ui/datepicker-28441b2cd45f0545c8a439f40b98d784.js?body=1" for ::1 at 2015-03-19 19:34:31 +0530
+
+
+Started GET "/assets/jquery-ui/mouse-504ef967eca0eb03967e3c9751c36d17.js?body=1" for ::1 at 2015-03-19 19:34:31 +0530
+
+
+Started GET "/assets/jquery-ui/draggable-d158b51e489137b213fd1eaa96a9b92a.js?body=1" for ::1 at 2015-03-19 19:34:31 +0530
+
+
+Started GET "/assets/jquery-ui/resizable-aa565fd6aa9f42700d8c54b318c0c1c8.js?body=1" for ::1 at 2015-03-19 19:34:31 +0530
+
+
+Started GET "/assets/jquery-ui/dialog-ee62065c80cb02fe6e91bf5811c59c91.js?body=1" for ::1 at 2015-03-19 19:34:31 +0530
+
+
+Started GET "/assets/jquery-ui/droppable-75fb6ed9dbb83bf1f0f29c2d15778318.js?body=1" for ::1 at 2015-03-19 19:34:31 +0530
+
+
+Started GET "/assets/jquery-ui/effect-2021355f2a0aeca6f77406c225e16af5.js?body=1" for ::1 at 2015-03-19 19:34:31 +0530
+
+
+Started GET "/assets/jquery-ui/effect-blind-49d6ffb6eb5c076034162b6d1e1745c3.js?body=1" for ::1 at 2015-03-19 19:34:31 +0530
+
+
+Started GET "/assets/jquery-ui/effect-bounce-e72f4f6a65b157d929fbd89f8b2390dd.js?body=1" for ::1 at 2015-03-19 19:34:31 +0530
+
+
+Started GET "/assets/jquery-ui/effect-clip-cd4d51c0674f351a44707a41658b7181.js?body=1" for ::1 at 2015-03-19 19:34:31 +0530
+
+
+Started GET "/assets/jquery-ui/effect-drop-def98505446ba9f512233830d6500f3a.js?body=1" for ::1 at 2015-03-19 19:34:31 +0530
+
+
+Started GET "/assets/jquery-ui/effect-fade-4d808b81f828c7dc6c8b1618d80ed32b.js?body=1" for ::1 at 2015-03-19 19:34:31 +0530
+
+
+Started GET "/assets/jquery-ui/effect-explode-0a42b7e95cf8a3d90da3cb3dce943a8d.js?body=1" for ::1 at 2015-03-19 19:34:31 +0530
+
+
+Started GET "/assets/jquery-ui/effect-highlight-32a231f33cb93ea3ed13cb952bd04c90.js?body=1" for ::1 at 2015-03-19 19:34:31 +0530
+
+
+Started GET "/assets/jquery-ui/effect-fold-de72205ff2880aa41078b5abe1865cba.js?body=1" for ::1 at 2015-03-19 19:34:31 +0530
+
+
+Started GET "/assets/jquery-ui/effect-size-c7ef7adb8e56fe4a76a11dbefcffdad9.js?body=1" for ::1 at 2015-03-19 19:34:31 +0530
+
+
+Started GET "/assets/jquery-ui/effect-scale-ce6a6c37c94c883819a78d6815bf71b7.js?body=1" for ::1 at 2015-03-19 19:34:31 +0530
+
+
+Started GET "/assets/jquery-ui/selectable-12ee86662aa0fe55647a30bedd9e0312.css?body=1" for ::1 at 2015-03-19 19:34:31 +0530
+
+
+Started GET "/assets/jquery-ui/tabs-9ffeb92c9db8bddb6a62a90240ed0050.css?body=1" for ::1 at 2015-03-19 19:34:31 +0530
+
+
+Started GET "/assets/jquery-ui/tooltip-39b71f906b596e9b132ea8fee7faf962.css?body=1" for ::1 at 2015-03-19 19:34:31 +0530
+
+
+Started GET "/assets/jquery-ui/base-35bc4884bd881640c9e64a5257ebd04e.css?body=1" for ::1 at 2015-03-19 19:34:31 +0530
+
+
+Started GET "/assets/jquery-ui-d6fb606b889c25c528dffb9c866175b8.css?body=1" for ::1 at 2015-03-19 19:34:31 +0530
+
+
+Started GET "/assets/fullcalendar-32ecbd03711357d4342240d33e768eba.css?body=1" for ::1 at 2015-03-19 19:34:31 +0530
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-19 19:34:31 +0530
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-19 19:34:31 +0530
+
+
+Started GET "/assets/jquery-ui/menu-7a7c9529e62d35813ed0a71fa95242f2.js?body=1" for ::1 at 2015-03-19 19:34:31 +0530
+
+
+Started GET "/assets/jquery-ui/effect-puff-35dacd87c19580d27466f980033f6892.js?body=1" for ::1 at 2015-03-19 19:34:31 +0530
+
+
+Started GET "/assets/jquery-ui/effect-pulsate-3dbd9c7d4f02ace765adbf794ac8044c.js?body=1" for ::1 at 2015-03-19 19:34:31 +0530
+
+
+Started GET "/assets/jquery-ui/effect-shake-efb89015cc38a02f2cbaaa355ebd0aa1.js?body=1" for ::1 at 2015-03-19 19:34:31 +0530
+
+
+Started GET "/assets/jquery-ui/effect-slide-5627960ce4f5e1b55f41ee66fe69a1ba.js?body=1" for ::1 at 2015-03-19 19:34:31 +0530
+
+
+Started GET "/assets/jquery-ui/effect-transfer-6db8c857d6ae811d1e346fcaf1165390.js?body=1" for ::1 at 2015-03-19 19:34:31 +0530
+
+
+Started GET "/assets/jquery-ui/progressbar-5bf852897daa19be16725667f5a6d57f.js?body=1" for ::1 at 2015-03-19 19:34:31 +0530
+
+
+Started GET "/assets/jquery-ui/selectable-d48286707119e8a116e86cadea677a1b.js?body=1" for ::1 at 2015-03-19 19:34:31 +0530
+
+
+Started GET "/assets/jquery-ui/selectmenu-a8caf21ea3cb8d2fa75cef3aaa007081.js?body=1" for ::1 at 2015-03-19 19:34:31 +0530
+
+
+Started GET "/assets/jquery-ui/slider-6fc52f20a37b8f070be1c7e94660e582.js?body=1" for ::1 at 2015-03-19 19:34:31 +0530
+
+
+Started GET "/assets/jquery-ui/sortable-fe96bfa9ff14377c0dc83b42d0f191e4.js?body=1" for ::1 at 2015-03-19 19:34:31 +0530
+
+
+Started GET "/assets/jquery-ui/spinner-ea9e3d6dad328d69198074f73b929b40.js?body=1" for ::1 at 2015-03-19 19:34:31 +0530
+
+
+Started GET "/assets/jquery-ui/tabs-7d723642f0cea4ad8b4be12b7af40214.js?body=1" for ::1 at 2015-03-19 19:34:31 +0530
+
+
+Started GET "/assets/jquery-ui/tooltip-974e8ae1e520e685f34c034cd4170ae9.js?body=1" for ::1 at 2015-03-19 19:34:31 +0530
+
+
+Started GET "/assets/jquery-ui-25658f2409fde34c2d638c3816cdce17.js?body=1" for ::1 at 2015-03-19 19:34:31 +0530
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-19 19:34:31 +0530
+
+
+Started GET "/assets/events-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-19 19:34:31 +0530
+
+
+Started GET "/assets/moment-66988874bf5714cb1e4a6f53d733b6e1.js?body=1" for ::1 at 2015-03-19 19:34:31 +0530
+
+
+Started GET "/assets/fullcalendar-c6d8932cb3cd5ce4daf967fec5ffb732.js?body=1" for ::1 at 2015-03-19 19:34:31 +0530
+
+
+Started GET "/events.json?start=2015-03-01&end=2015-04-12&_=1426773871264" for ::1 at 2015-03-19 19:34:31 +0530
+Processing by EventsController#index as JSON
+  Parameters: {"start"=>"2015-03-01", "end"=>"2015-04-12", "_"=>"1426773871264"}
+  [1m[35mEvent Load (0.2ms)[0m  SELECT "events".* FROM "events"
+  Rendered events/index.json.jbuilder (3.1ms)
+Completed 200 OK in 6ms (Views: 4.8ms | ActiveRecord: 0.2ms)

@@ -11,7 +11,7 @@
   <%= form_for :event do |f| %>
   <div class="field">
     <%= f.label :title %><br>
-    <%= f.text_field :title %>
+    <%= f.text_field :title, :required => true %>
   </div>
   <div class="field">
     <%= f.label :description %><br>
@@ -29,11 +29,11 @@
     <%= f.label :repeat_freq %>
     <%= f.select :repeat_freq, ((2..30).map {|i| [i,i] }) %>
   </div>
-  <div class="field" style="display: none;" id='repeat_week_days'>
+  <div class="field" style="display: none;" id='repeat_week'>
     <%= f.label :select_day %>
     <% Date::DAYNAMES.each do |day| %>
-       <%= f.check_box :repeat_week_days, {}, day %>
-       <%= day %>
+       <%= f.check_box :repeat_week_days, {}, day, :id => 'repeat_week_days' %>
+       <%= day %> 
     <% end %>
   </div>
   <div class="actions">

@@ -1,4 +1,10 @@
 class Event < ActiveRecord::Base
+  attr_accessor :repeat_week_days
+
+  def set_repeat_day
+  	binding.pry
+    self.repeat = self.repeat + self.repeat_week_days
+  end
  # validate :overlapping_events
 
  #  scope :overlapping, ->(a) {

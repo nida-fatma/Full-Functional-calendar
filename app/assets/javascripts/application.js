@@ -27,10 +27,12 @@ $(document).ready(function(){
     $("#repeat_freq").css("display", "block");
   }
   if ($(this).find(':selected').val() == 'Weekly') {
-    $('#repeat_week_days').css('display', 'block');
+    $('#repeat_week').css('display', 'block');
+    $('#repeat_week_days').prop('required',true);
   }
   else {
-    $("#repeat_week_days").css("display", "none");
+    $("#repeat_week").css("display", "none");
+    $('#repeat_week_days').prop('required',false);
   }
  });
  $('.calendar').fullCalendar({

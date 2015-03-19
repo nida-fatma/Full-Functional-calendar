@@ -25,7 +25,9 @@ class EventsController < ApplicationController
   # POST /events.json
   def create
     @event = Event.new(event_params)
-
+    if @event.repeat == "Weekly"
+      @event.set_repeat_day
+    end
     respond_to do |format|
       if @event.save
         format.html { redirect_to events_path, notice: 'Event was successfully created.' }
@@ -69,6 +71,6 @@ class EventsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def event_params
-      params.require(:event).permit(:title, :description, :start_time, :repeat, :repeat_freq)
+      params.require(:event).permit(:title, :description, :start_time, :repeat, :repeat_freq, :repeat_week_days)
     end
   end
