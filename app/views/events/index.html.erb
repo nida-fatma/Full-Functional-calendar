@@ -29,6 +29,13 @@
     <%= f.label :repeat_freq %>
     <%= f.select :repeat_freq, ((2..30).map {|i| [i,i] }) %>
   </div>
+  <div class="field" style="display: none;" id='repeat_week_days'>
+    <%= f.label :select_day %>
+    <% Date::DAYNAMES.each do |day| %>
+       <%= f.check_box :repeat_week_days, {}, day %>
+       <%= day %>
+    <% end %>
+  </div>
   <div class="actions">
     <%= f.submit %>
   </div>

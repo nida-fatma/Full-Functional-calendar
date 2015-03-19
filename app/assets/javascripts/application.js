@@ -26,6 +26,12 @@ $(document).ready(function(){
   else {
     $("#repeat_freq").css("display", "block");
   }
+  if ($(this).find(':selected').val() == 'Weekly') {
+    $('#repeat_week_days').css('display', 'block');
+  }
+  else {
+    $("#repeat_week_days").css("display", "none");
+  }
  });
  $('.calendar').fullCalendar({
   header: {
