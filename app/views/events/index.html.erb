@@ -21,6 +21,10 @@
     <%= f.label :start_time %><br>
     <%= f.datetime_select :start_time %> 
   </div>
+  <div class="field">
+    <%= f.label :duration_in_minutes %><br>
+    <%= f.select :duration, ((30..120).step(30).map{|s| [s,s]}) %>
+  </div>
   <div class="field" id="repeat_event">
     <%= f.label :repeat %><br>
     <%= f.select :repeat, options_for_select(%w[Once Daily Weekly Monthly]) %>
@@ -31,15 +35,16 @@
   </div>
   <div class="field" style="display: none;" id='repeat_week'>
     <%= f.label :select_day %>
-    <% Date::DAYNAMES.each do |day| %>
-       <%= f.check_box :repeat_week_days, {}, day, :id => 'repeat_week_days' %>
+    <% @days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thur', 'Fri', 'Sat']%>
+    <% @days.each do |day| %>
+       <%= f.check_box :repeat_week_days, {:multiple => true}, day, nil %>
        <%= day %> 
     <% end %>
   </div>
   <div class="actions">
     <%= f.submit %>
   </div>
-  <% end  %>
+  <% end %>
 </div>
 
 

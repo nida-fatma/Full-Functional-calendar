@@ -24,12 +24,10 @@ class EventsController < ApplicationController
   # POST /events
   # POST /events.json
   def create
-    @event = Event.new(event_params)
-    if @event.repeat == "Weekly"
-      @event.set_repeat_day
-    end
+    hash = Event.calendar_events(event_params)
+
     respond_to do |format|
-      if @event.save
+      if Event.create(hash)
         format.html { redirect_to events_path, notice: 'Event was successfully created.' }
         format.json { render :show, status: :created, location: @event }
       else
@@ -71,6 +69,6 @@ class EventsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def event_params
-      params.require(:event).permit(:title, :description, :start_time, :repeat, :repeat_freq, :repeat_week_days)
+      params.require(:event).permit(:title, :description, :start_time, :duration, :repeat, :repeat_freq, :repeat_week_days => [])
     end
   end
