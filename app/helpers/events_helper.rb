@@ -8,7 +8,7 @@ module EventsHelper
         repeat_event = Recurrence.new(:starts => e.start_time.to_date, :every => :day, :repeat => e.repeat_freq)
         @occurrences = repeat_event.events
       when "Monthly"
-        repeat_event = Recurrence.new(:starts => e.start_time.to_date, :every => :month, :on => e.start_time.day, :repeat => e.repeat_freq)
+        repeat_event = Recurrence.new(:starts => e.start_time.to_date, :every => :month, :on => e.start_time.day, :repeat => e.repeat_freq, :shift => true)
         @occurrences = repeat_event.events
       when "Weekly"
         repeat_event = Recurrence.new(:starts => e.start_time.to_date, :every => :day, :repeat => e.repeat_freq)
